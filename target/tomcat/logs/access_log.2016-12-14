@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:10:32:24 +0000] "GET /users/1 HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:10:32:42 +0000] "GET /budget/users/1 HTTP/1.1" 200 625 http-bio-8080-exec-2 408
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:18:38:55 +0000] "GET /budget/usersdfgdfgdf HTTP/1.1" 404 949 http-bio-8080-exec-1 91
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:18:39:22 +0000] "GET /budget/users/cffd HTTP/1.1" 400 968 http-bio-8080-exec-2 41
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:18:40:16 +0000] "GET /budget/users/cffd HTTP/1.1" 208 363 http-bio-8080-exec-1 306
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:18:41:09 +0000] "GET /budget/users/cffd HTTP/1.1" 208 363 http-bio-8080-exec-1 196
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:18:41:10 +0000] "GET /budget/users/cffd HTTP/1.1" 208 363 http-bio-8080-exec-2 8
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:19:22:31 +0000] "GET /budget/userssnotmapeed HTTP/1.1" 208 233 http-bio-8080-exec-1 181
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:19:31:43 +0000] "GET /budget/userssnotmapeed HTTP/1.1" 404 949 http-bio-8080-exec-1 86
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:19:32:45 +0000] "GET /budget/userssnotmapeed HTTP/1.1" 208 233 http-bio-8080-exec-1 187
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:19:34:08 +0000] "GET /budget/userssnotmapeed HTTP/1.1" 208 233 http-bio-8080-exec-3 33
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:19:34:09 +0000] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [14/Dec/2016:19:34:23 +0000] "GET /budget/userssnotmapeed HTTP/1.1" 208 233 http-bio-8080-exec-6 10
