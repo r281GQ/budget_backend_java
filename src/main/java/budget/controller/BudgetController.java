@@ -66,7 +66,7 @@ public class BudgetController {
     private User wrapUserId(long id) {
         User user = new User();
         user.setIdentifier(id);
-        return null;
+        return user;
     }
 
     private Budget wrapBudget(long id) {

@@ -1,10 +1,7 @@
 package budget.service;
 
 import budget.controller.exceptions.InvalidDataProvidedException;
-import budget.model.Budget;
-import budget.model.BudgetPeriod;
-import budget.model.Transaction;
-import budget.model.User;
+import budget.model.*;
 import budget.repository.interfaces.*;
 import budget.service.interfaces.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -83,8 +80,11 @@ public class CrossEffectManagerImplementation implements CrossEffectManager {
 
         setDependencies(transaction);
 
-        if (hasBudget(transaction))
+        if (hasBudget(transaction)){
             transaction.setBudget(budgetRepository.get(transaction.getBudget().getIdentifier()));
+            if(transaction.getGrouping().getType().equals(Type.INCOME))
+                throw new InvalidDataProvidedException("transaction cannot be income if it belongs to a budget", transaction);
+        }
 
         if (hasEquity(transaction))
             transaction.setEquity(equityRepository.get(transaction.getEquity().getIdentifier()));

@@ -43,13 +43,13 @@ public class AccountController {
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/accounts" ,method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public void update(@RequestBody @P("account") Account account) {
-            accountService.update(account);
-     }
+        accountService.update(account);
+    }
 
     @ResponseStatus(HttpStatus.ACCEPTED)
     @RequestMapping(value = "/accounts/{id}", method = RequestMethod.DELETE, produces = MediaType.APPLICATION_JSON_VALUE)
     @PreAuthorize("@securityHelper.doesAccountBelongToLoggedInUser(#id)")
-    public void delete(@PathVariable ("id")@P("id") long id){
+    public void delete(@PathVariable ("id") @P("id") long id){
        accountService.delete(wrapId(id));
     }
 

@@ -37,8 +37,8 @@ public class AccountSetterServiceImplementation implements AccountSetterService 
         if (!isIncome(transaction)) {
             addAmount(transaction);
         } else {
-            subtractAmount(transaction);
             balanceCheck(transaction);
+            subtractAmount(transaction);
         }
         accountRepository.update(transaction.getAccount());
     }

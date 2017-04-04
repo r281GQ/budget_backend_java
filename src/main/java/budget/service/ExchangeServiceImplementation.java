@@ -7,7 +7,6 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -16,7 +15,7 @@ import java.util.*;
 /**
  * Created by veghe on 11/09/2016.
  */
-@Service
+//@Service
 public class ExchangeServiceImplementation implements ExchangeService {
 
     private Set<Currency> currencies;

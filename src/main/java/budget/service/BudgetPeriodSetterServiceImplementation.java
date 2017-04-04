@@ -105,6 +105,9 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
         BigDecimal leftOver = new BigDecimal(0);
 
         for (Map.Entry<BudgetPeriod, List<Transaction>> entry : budgetPeriodTransactionListDictionary.entrySet()) {
+            System.err.println("BPs: "+entry.getKey());
+            System.err.println("transaction belong the above are:");
+            entry.getValue().forEach((transaction -> System.err.println(transaction.getName() + " "+ transaction.getIdentifier())));
             BigDecimal balance = entry.getKey().getAllowance().add(leftOver).subtract(calculateSumOfTransactions(entry));
             setBalanceForCurrentBudgetPeriod(entry, balance);
             leftOver = balance;
@@ -113,6 +116,7 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
     }
 
     private void setBalanceForCurrentBudgetPeriod(Map.Entry<BudgetPeriod, List<Transaction>> entry, BigDecimal balance) {
+        System.err.println("For the budgeetPeriod "+entry.getKey().getName()+ " balance has been set: "+balance);
         entry.getKey().setBalance(balance);
     }
 
@@ -122,6 +126,7 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
         for (Transaction transaction : dictionaryEntry.getValue()) {
             sumOfAmountOfTransactions = (transaction.getAmountAtTheMomentOfTransactionForBudget().add(sumOfAmountOfTransactions));
         }
+        System.err.println("sumoftran:"+sumOfAmountOfTransactions);
         return sumOfAmountOfTransactions;
     }
 
@@ -130,6 +135,9 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
 
         for (BudgetPeriod budgetPeriod : orderedBudgetPeriods) {
             List<Transaction> transactionList = transactionRepository.findBudgetPeriod(budgetPeriod);
+            for(Transaction transaction: transactionList){
+                System.err.println(transaction.getIdentifier());
+            }
             budgetPeriodTransactionListDictionary.put(budgetPeriod, transactionList);
         }
         return budgetPeriodTransactionListDictionary;

@@ -73,6 +73,7 @@ public class BudgetPeriodRepositoryImplementation implements BudgetPeriodReposit
         q.setParameter("id", budget.getIdentifier());
         q.setParameter("representation", period.getRepresentation());
         List<BudgetPeriod> budgetPeriods = q.getResultList();
+        budgetPeriods.forEach((g)-> System.out.print(g.getName()));
         return budgetPeriods.isEmpty() ? null : budgetPeriods.get(0);
     }
 

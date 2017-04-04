@@ -1,6 +1,7 @@
 package budget.config.security.auth;
 
 import budget.config.security.BudgetUser;
+import budget.controller.exceptions.InvalidDataProvidedException;
 import budget.controller.exceptions.UnAuthorizedException;
 import budget.model.*;
 import budget.repository.interfaces.*;
@@ -14,6 +15,9 @@ import org.springframework.stereotype.Component;
  */
 @Component("securityHelper")
 public class SecurityHelper {
+
+    @Autowired
+    private UserRepository userRepository;
 
     @Autowired
     private AccountRepository accountRepository;
@@ -44,39 +48,73 @@ public class SecurityHelper {
         Budget budget = new Budget();
         budget.setIdentifier(id);
 
-        return isRealResource(budget);
+        if(!isRealResource(budget))
+            throw new UnAuthorizedException("Budget does not belong to principal");
+        return  true;
     }
 
     public boolean doesTransactionBelongToLoggedInUser(long id) {
         Transaction transaction = new Transaction();
         transaction.setIdentifier(id);
 
-        return isRealResource(transaction);
+        if(!isRealResource(transaction))
+            throw new UnAuthorizedException("Transaction does not belong to principal");
+        return  true;
     }
 
     private boolean isRealResource(Transaction transaction) {
-        transaction = transactionRepository.get(transaction.getIdentifier());
-        if (transaction == null) {
-            transaction = new Transaction();
-            transaction.setIdentifier(0L);
-            throw new UnAuthorizedException();
-        }
-        return transaction.getUser().equals(getLoggedInUser());
+        if(transaction.getIdentifier() == null)
+            throw new InvalidDataProvidedException("Either there is no transaction present or transaction is missing identifier", transaction);
+        return transactionRepository.get(transaction.getIdentifier()).getUser().equals(getLoggedInUser());
     }
 
     public boolean doesEquityBelongToLoggedInUser(long id) {
         Equity equity = new Equity();
         equity.setIdentifier(id);
+        if(!isRealResource(equity))
+            throw new UnAuthorizedException("Equity does not belong to prinicipal");
 
-        return isRealResource(equity);
+        return true;
+    }
+
+    public boolean isUserProvidedPrincipal(long id){
+        User user = new User();
+        user.setIdentifier(id);
+        if(user == null || user.getIdentifier() == null)
+            throw new InvalidDataProvidedException("Either user is not present or user is missing identifier", user);
+        if(getLoggedInUser().getIdentifier() != user.getIdentifier())
+            throw new UnAuthorizedException("Principal is not the attached user on the resource");
+        return true;
+    }
+
+    public boolean isUserProvidedPrincipal(User user){
+        if(user == null || user.getIdentifier() == null)
+            throw new InvalidDataProvidedException("Either user is not present or user is missing identifier", user);
+        if(getLoggedInUser().getIdentifier() != user.getIdentifier())
+            throw new UnAuthorizedException("Principal is not the attached user on the resource");
+        return true;
     }
 
     public boolean doesGroupingBelongToLoggedInUser(long id) {
         Grouping grouping = new Grouping();
         grouping.setIdentifier(id);
 
-        return isRealResource(grouping);
+        if(!isRealResource(grouping))
+            throw new UnAuthorizedException();
+        return true;
     }
+
+//    public boolean doesTransactionBelongToPrincipal(Transaction transaction){
+//
+//
+//        if(transaction == null || transaction.getIdentifier() == null)
+//            throw new InvalidDataProvidedException("", transaction);
+//        if(!transactionRepository.get(transaction.getIdentifier()).getUser().equals(getLoggedInUser()))
+//            throw new UnAuthorizedException("baszodanyád");
+//
+//
+//        return true;
+//    }
 
     public boolean doResourcesBelongToPrincipal(Transaction transaction) {
         boolean mandatory = isRealResource(transaction.getAccount()) && isRealResource(transaction.getGrouping());
@@ -85,57 +123,40 @@ public class SecurityHelper {
             mandatory = mandatory && isRealResource(transaction.getEquity());
         if (transaction.getBudget() != null)
             mandatory = mandatory && isRealResource(transaction.getBudget());
-        return mandatory;
+
+        if(!mandatory)
+            throw new UnAuthorizedException();;
+        return true;
     }
 
     public boolean isRealResource(Budget budget) {
-        budget = budgetRepository.get(budget.getIdentifier());
-        if (budget == null) {
-            budget = new Budget();
-            budget.setIdentifier(0L);
-            throw new UnAuthorizedException();
-        }
-        return budget.getUser().equals(getLoggedInUser());
+        if(budget.getIdentifier() == null)
+            throw new InvalidDataProvidedException("Either there is no budget present or budget is missing identifier", budget);
+        return budgetRepository.get(budget.getIdentifier()).getUser().equals(getLoggedInUser());
     }
 
     public boolean isRealResource(BudgetPeriod budgetPeriod) {
-        budgetPeriod = budgetPeriodRepository.get(budgetPeriod.getIdentifier());
-        if (budgetPeriod == null) {
-            budgetPeriod = new BudgetPeriod();
-            budgetPeriod.setIdentifier(0L);
-            throw new UnAuthorizedException();
-        }
-        return budgetPeriod.getUser().equals(getLoggedInUser());
+        if(budgetPeriod == null || budgetPeriod.getIdentifier() == null)
+            throw new InvalidDataProvidedException("Either there is no budgetPeriod present or budgetPeriod is missing identifier", budgetPeriod);
+        return budgetPeriodRepository.get(budgetPeriod.getIdentifier()).getUser().equals(getLoggedInUser());
     }
 
     public boolean isRealResource(Equity equity) {
-        equity = equityRepository.get(equity.getIdentifier());
-        if (equity == null) {
-            equity = new Equity();
-            equity.setIdentifier(0L);
-            throw new UnAuthorizedException();
-        }
-        return equity.getUser().equals(getLoggedInUser());
+        if(equity == null || equity.getIdentifier() == null)
+            throw new InvalidDataProvidedException("Either there is no equity present or equity is missing identifier", equity);
+        return equityRepository.get(equity.getIdentifier()).getUser().equals(getLoggedInUser());
     }
 
     public boolean isRealResource(Grouping grouping) {
-        grouping = groupingRepository.get(grouping.getIdentifier());
-        if (grouping == null) {
-            grouping = new Grouping();
-            grouping.setIdentifier(0L);
-            throw new UnAuthorizedException();
-        }
-        return grouping.getUser().equals(getLoggedInUser());
+        if(grouping == null || grouping.getIdentifier() == null)
+            throw new InvalidDataProvidedException("Either there is no grouping present or grouping is missing identifier", grouping);
+        return groupingRepository.get(grouping.getIdentifier()).getUser().equals(getLoggedInUser());
     }
 
     public boolean isRealResource(Account account) {
-        account = accountRepository.get(account.getIdentifier());
-        if (account == null) {
-            account = new Account();
-            account.setIdentifier(0L);
-            throw new UnAuthorizedException();
-        }
-        return account.getUser().equals(getLoggedInUser());
+        if(account == null || account.getIdentifier() == null)
+            throw new InvalidDataProvidedException("Either there is no account present or account is missing identifier", account);
+        return accountRepository.get(account.getIdentifier()).getUser().equals(getLoggedInUser());
     }
 
     private User getLoggedInUser() {
@@ -144,6 +165,7 @@ public class SecurityHelper {
         BudgetUser budgetUser = (BudgetUser) securityContext.getAuthentication().getPrincipal();
 
         User user = budgetUser.getUser();
+
         return user;
     }
 }

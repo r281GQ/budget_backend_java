@@ -40,7 +40,7 @@ public class Transaction implements BudgetModel {
     @ManyToOne
     private Equity equity;
 
-    @Null
+//    @Null
     @Embedded
     private Period period;
 
@@ -68,7 +68,7 @@ public class Transaction implements BudgetModel {
 
     private String memo;
 
-    @Null
+//    @Null
     @Temporal(TemporalType.DATE)
     private Date creationDate;
 

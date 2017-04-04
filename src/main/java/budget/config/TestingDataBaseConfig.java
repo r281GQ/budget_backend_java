@@ -2,9 +2,7 @@ package budget.config;
 
 import budget.service.interfaces.ExchangeService;
 import org.h2.Driver;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
-import org.springframework.core.env.Environment;
 import org.springframework.jdbc.datasource.SimpleDriverDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -27,11 +25,11 @@ import java.util.Properties;
 @ComponentScan(basePackages = "budget")
 @EnableTransactionManagement
 @Profile("testing")
-@PropertySource(value = {"classpath:/application.properties"})
+//@PropertySource(value = {"classpath:/application.properties"})
 public class TestingDataBaseConfig {
 
-    @Autowired
-    private Environment environment;
+//    @Autowired
+//    private Environment environment;
 
     @Bean
     @Primary
@@ -52,8 +50,8 @@ public class TestingDataBaseConfig {
     @Bean
     public Properties getEntityProperties() {
         Properties properties = new Properties();
-        properties.setProperty("hibernate.hbm2ddl.auto", environment.getProperty("testing_hibernate.hbm2ddl.auto"));
-        properties.setProperty("javax.persistence.validation.mode", environment.getProperty("testing_validation_mode"));
+        properties.setProperty("hibernate.hbm2ddl.auto", "create-drop" );
+        properties.setProperty("javax.persistence.validation.mode", "NONE");
         return properties;
     }
 
@@ -61,7 +59,7 @@ public class TestingDataBaseConfig {
     public DataSource getDataSource() {
         SimpleDriverDataSource ds = new SimpleDriverDataSource();
         ds.setDriverClass(Driver.class);
-        ds.setUrl(environment.getProperty("testing_database_url"));
+        ds.setUrl("jdbc:h2:~/test)");
         ds.setPassword("");
         ds.setUsername("sa");
         return ds;

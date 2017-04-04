@@ -148,6 +148,7 @@ public class CrossEffectManagerImplementationTest {
     @Test
     public void shouldInvokeMethodsOnCreation(){
         when(userRepository.get(transaction.getUser().getIdentifier())).thenReturn(user);
+        when(groupingRepository.get(transaction.getUser().getIdentifier())).thenReturn(grouping);
         when(equityRepository.get(transaction.getEquity().getIdentifier())).thenReturn(equity);
         when(budgetRepository.get(any(Long.class))).thenReturn(budget);
         when(periodCreatorService.createPeriod(any(Date.class))).thenReturn(period);

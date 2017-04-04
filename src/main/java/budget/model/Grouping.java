@@ -3,7 +3,6 @@ package budget.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,14 +16,14 @@ public class Grouping implements BudgetModel {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long identifier;
 
-    @NotNull
+
     private String name;
 
-    @NotNull
+
     @ManyToOne
     private User user;
 
-    @NotNull
+
     @Enumerated(EnumType.STRING)
     private Type type;
 

@@ -3,9 +3,6 @@ package budget.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Null;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,25 +17,25 @@ public class BudgetPeriod implements BudgetModel, Comparable<BudgetPeriod> {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long identifier;
 
-    @NotNull
+
     private String name;
 
-    @NotNull
+
     @ManyToOne
     private Budget budget;
 
-    @NotNull
-    @Min(0)
+
+
     private BigDecimal allowance;
 
-    @Null
+
     private BigDecimal balance;
 
-    @NotNull
+
     @ManyToOne
     private User user;
 
-    @NotNull
+
     @Embedded
     private Period period;
 
