@@ -2,104 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7acea2bd-df9f-4531-882b-e358cd66ccb0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.accessories.builder.TransactionBuilderTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.AccountControllerTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.BudgetControllerTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.GroupingControllerTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.IntegrationTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.TransactionControllerTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.UserControllerTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.ValTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.model.SecurityTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.model.ServiceRepositoryDataBaseIntegrationTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.model.ValidationTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.BudgetPeriodAndDataBaseIntegrationTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.accessories.builder.TransactionBuilderTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.controller.AccountControllerTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.controller.BudgetControllerTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.controller.GroupingControllerTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.controller.IntegrationTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.controller.TransactionControllerTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.controller.UserControllerTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.controller.ValTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.model.SecurityTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.model.ServiceRepositoryDataBaseIntegrationTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.model.ValidationTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.repository.BudgetPeriodAndDataBaseIntegrationTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/accessories/validators/ExceptionCatchers$ActualMethod.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/accessories/validators/ExceptionCatchers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/controller/AccountControllerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/controller/BudgetControllerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/controller/GroupingControllerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/controller/TransactionControllerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/controller/UserControllerIntegraion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/controller/UserControllerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/model/AccountServiceDBIntegrationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/model/GroupingServiceDBIntegrationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/model/TransactionServiceDataBaseIntegrationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/budget/model/UserServiceDBIntegrationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-12-12" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-12-14" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-12-18" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-12-19" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-12-20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_el_impl_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_0_12_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/budget/config/CORSFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/AuthenticationFailure.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/AuthenticationSuccess.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/budget/config/CORSFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/AuthenticationFailure.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/AuthenticationSuccess.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-03-28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-03-29" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-03-30" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-03-31" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-04-02" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-04-03" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/accessories/builder/TransactionBuilder.class" afterPath="$PROJECT_DIR$/target/classes/budget/accessories/builder/TransactionBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/accessories/validators/EmailValidator.class" afterPath="$PROJECT_DIR$/target/classes/budget/accessories/validators/EmailValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/accessories/validators/ValidationServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/accessories/validators/ValidationServiceImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/assembler/UserAssembler.class" afterPath="$PROJECT_DIR$/target/classes/budget/assembler/UserAssembler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/DevDB$1.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/DevDB$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/DevDB.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/DevDB.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/Dispatcher.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/Dispatcher.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/TestingDataBaseConfig$1.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/TestingDataBaseConfig$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/TestingDataBaseConfig.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/TestingDataBaseConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/WebConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/WebConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/BudgetUserService.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/security/BudgetUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/EntryPoint.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/security/EntryPoint.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/SecurityConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/security/SecurityConfiguration.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/auth/SecurityHelper.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/security/auth/SecurityHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/AccountController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/AccountController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/BudgetController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/BudgetController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/BudgetPeriodController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/BudgetPeriodController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/CustomExceptionTranslator.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/CustomExceptionTranslator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/EquityController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/EquityController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/GroupingController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/GroupingController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/TransactionController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/TransactionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/exceptions/UnAuthorizedException.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/exceptions/UnAuthorizedException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/model/BudgetPeriod.class" afterPath="$PROJECT_DIR$/target/classes/budget/model/BudgetPeriod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/model/Equity.class" afterPath="$PROJECT_DIR$/target/classes/budget/model/Equity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/model/Grouping.class" afterPath="$PROJECT_DIR$/target/classes/budget/model/Grouping.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/model/Transaction.class" afterPath="$PROJECT_DIR$/target/classes/budget/model/Transaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/repository/BudgetPeriodRepositoryImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/repository/BudgetPeriodRepositoryImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/AccountSetterServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/AccountSetterServiceImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/BudgetPeriodSetterServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/BudgetPeriodSetterServiceImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/exceptions/FailedLogInException.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/exceptions/FailedLogInException.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/CrossEffectManagerImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/CrossEffectManagerImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/ExchangeServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/ExchangeServiceImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/TransactionServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/TransactionServiceImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/UserServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/UserServiceImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/budget/accessories/TestModelRepo.class" afterPath="$PROJECT_DIR$/target/test-classes/budget/accessories/TestModelRepo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/budget/controller/BudgetPeriodControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/budget/controller/BudgetPeriodControllerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/budget/service/CrossEffectManagerImplementationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/budget/service/CrossEffectManagerImplementationTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/budget/service/UserServiceImplementationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/budget/service/UserServiceImplementationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Budget.iml" afterPath="$PROJECT_DIR$/Budget.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/accessories/builder/TransactionBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/budget/accessories/builder/TransactionBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/EmailValidator.java" afterPath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/EmailValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationService.java" afterPath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/AccountAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/AccountAssembler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetAssembler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetPeriodAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetPeriodAssembler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/EquityAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/EquityAssembler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/GroupingAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/GroupingAssembler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/TransactionAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/TransactionAssembler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/UserAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/UserAssembler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/DevDB.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/DevDB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/Dispatcher.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/Dispatcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUser.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUserService.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/EntryPoint.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/EntryPoint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/AccountController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/AccountController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/BudgetController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/BudgetController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/BudgetPeriodController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/BudgetPeriodController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/CustomExceptionTranslator.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/CustomExceptionTranslator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/EquityController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/EquityController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/GroupingController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/GroupingController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/TransactionController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/TransactionController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/UnAuthorizedException.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/UnAuthorizedException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/model/BudgetPeriod.java" afterPath="$PROJECT_DIR$/src/main/java/budget/model/BudgetPeriod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/model/Equity.java" afterPath="$PROJECT_DIR$/src/main/java/budget/model/Equity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/model/Grouping.java" afterPath="$PROJECT_DIR$/src/main/java/budget/model/Grouping.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/model/Transaction.java" afterPath="$PROJECT_DIR$/src/main/java/budget/model/Transaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/repository/BudgetPeriodRepositoryImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/repository/BudgetPeriodRepositoryImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/AccountSetterServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/AccountSetterServiceImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FailedLogInException.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FailedLogInException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/ExchangeServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/ExchangeServiceImplementation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/UserServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/UserServiceImplementation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/budget/accessories/TestModelRepo.java" afterPath="$PROJECT_DIR$/src/test/java/budget/accessories/TestModelRepo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java" afterPath="$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/budget/service/UserServiceImplementationTest.java" afterPath="$PROJECT_DIR$/src/test/java/budget/service/UserServiceImplementationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.accessories.validators.ValidationServiceTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.accessories.validators.ValidationServiceTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.config.DataBaseConnectionTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.config.DataBaseConnectionTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.BudgetPeriodControllerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.BudgetPeriodControllerTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.model.PeriodTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.model.PeriodTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.AccountRepositoryAndDataBaseIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.AccountRepositoryAndDataBaseIntegrationTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.BudgetPeriodRepositoryDBIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.BudgetPeriodRepositoryDBIntegrationTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.BudgetRepositoryAndDataBaseIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.BudgetRepositoryAndDataBaseIntegrationTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.UserRepositoryAndDataBaseIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.UserRepositoryAndDataBaseIntegrationTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.AccountServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.AccountServiceImplementationTest.xml" />
@@ -114,10 +114,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.PeriodCreatorServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.PeriodCreatorServiceImplementationTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.TransactionServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.TransactionServiceImplementationTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.UserServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.UserServiceImplementationTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.AccountServiceDBIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.AccountServiceDBIntegrationTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.GroupingServiceDBIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.GroupingServiceDBIntegrationTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.TransactionServiceDataBaseIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.TransactionServiceDataBaseIntegrationTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.UserServiceDBIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.UserServiceDBIntegrationTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.accessories.validators.ValidationServiceTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.accessories.validators.ValidationServiceTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.config.DataBaseConnectionTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.config.DataBaseConnectionTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.controller.BudgetPeriodControllerTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.controller.BudgetPeriodControllerTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.model.PeriodTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.model.PeriodTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.repository.AccountRepositoryAndDataBaseIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.repository.AccountRepositoryAndDataBaseIntegrationTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.repository.BudgetPeriodRepositoryDBIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.repository.BudgetPeriodRepositoryDBIntegrationTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.repository.BudgetRepositoryAndDataBaseIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.repository.BudgetRepositoryAndDataBaseIntegrationTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.repository.UserRepositoryAndDataBaseIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.repository.UserRepositoryAndDataBaseIntegrationTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.AccountServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.AccountServiceImplementationTest.txt" />
@@ -132,12 +138,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.PeriodCreatorServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.PeriodCreatorServiceImplementationTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.TransactionServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.TransactionServiceImplementationTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.UserServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.UserServiceImplementationTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.AccountServiceDBIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.AccountServiceDBIntegrationTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.GroupingServiceDBIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.GroupingServiceDBIntegrationTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.TransactionServiceDataBaseIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.TransactionServiceDataBaseIntegrationTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.UserServiceDBIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.UserServiceDBIntegrationTest.txt" />
     </list>
     <ignored path="Budget.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/.git/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,105 +176,151 @@
     <favorites_list name="Budget" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8239546">
+    <splitter split-orientation="horizontal" split-proportion="0.33677992">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="TransactionController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/TransactionController.java">
+          <file leaf-file-name="InvalidType.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/InvalidType.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1375">
-                  <caret line="72" column="70" lean-forward="false" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
+                <state relative-caret-position="325">
+                  <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AccountController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/AccountController.java">
+          <file leaf-file-name="GroupingServiceImplementation.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/GroupingServiceImplementation.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="825">
-                  <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+                <state relative-caret-position="225">
+                  <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#3651#3652#0" expanded="false" />
+                    <element signature="e#3709#3710#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserServiceImplementation.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/UserServiceImplementation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1650">
+                  <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#2579#2580#0" expanded="false" />
+                    <element signature="e#2620#2621#0" expanded="false" />
+                    <element signature="e#3086#3087#0" expanded="false" />
+                    <element signature="e#3157#3158#0" expanded="false" />
+                    <element signature="e#3205#3206#0" expanded="false" />
+                    <element signature="e#3252#3253#0" expanded="false" />
+                    <element signature="e#3930#3931#0" expanded="false" />
+                    <element signature="e#3981#3982#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TransactionServiceImplementation.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#2778#2779#0" expanded="false" />
+                    <element signature="e#2839#2840#0" expanded="false" />
+                    <element signature="e#3262#3263#0" expanded="false" />
+                    <element signature="e#3329#3330#0" expanded="false" />
+                    <element signature="e#3402#3403#0" expanded="false" />
+                    <element signature="e#3467#3468#0" expanded="false" />
+                    <element signature="e#3546#3547#0" expanded="false" />
+                    <element signature="e#3615#3616#0" expanded="false" />
+                    <element signature="e#3688#3689#0" expanded="false" />
+                    <element signature="e#3753#3754#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CrossEffectManagerImplementation.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1975">
+                  <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#5896#5897#0" expanded="false" />
+                    <element signature="e#5950#5951#0" expanded="false" />
+                    <element signature="e#6008#6009#0" expanded="false" />
+                    <element signature="e#6062#6063#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JWTTokenUtil.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="275">
+                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#424#425#0" expanded="false" />
+                    <element signature="e#459#460#0" expanded="false" />
+                    <element signature="e#1156#1157#0" expanded="false" />
+                    <element signature="e#1226#1227#0" expanded="false" />
+                    <element signature="e#1271#1272#0" expanded="false" />
+                    <element signature="e#1350#1351#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CrossEffectManagerImplementationTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4700">
+                  <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserServiceImplementationTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/UserServiceImplementationTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1075">
+                  <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TransactionServiceDataBaseIntegrationTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/integration/TransactionServiceDataBaseIntegrationTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="25">
+                  <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BudgetUser.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUser.java">
+          <file leaf-file-name="TestModelRepo.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/budget/accessories/TestModelRepo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SecurityHelper.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1825">
-                  <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SecurityConfiguration.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="800">
-                  <caret line="72" column="53" lean-forward="true" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EntryPoint.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/EntryPoint.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BudgetPeriod.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/BudgetPeriod.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="625">
-                  <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EQType.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/EQType.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Equity.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/Equity.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="700">
-                  <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Grouping.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/Grouping.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="219">
-                  <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="300">
+                  <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -271,106 +329,124 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="BudgetPeriodSetterServiceImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2825">
-                  <caret line="128" column="51" lean-forward="false" selection-start-line="128" selection-start-column="45" selection-end-line="128" selection-end-column="51" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BudgetPeriodRepositoryImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/repository/BudgetPeriodRepositoryImplementation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1550">
-                  <caret line="75" column="64" lean-forward="false" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CrossEffectManagerImplementationTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3400">
-                  <caret line="157" column="35" lean-forward="false" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BudgetPeriodSetterServiceImplementationTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/BudgetPeriodSetterServiceImplementationTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1450">
-                  <caret line="75" column="31" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CrossEffectManagerImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/Transaction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3400">
-                  <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DevDB.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DevDB.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/DevDB.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TransactionServiceImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1250">
-                  <caret line="62" column="37" lean-forward="false" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+                <state relative-caret-position="500">
+                  <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#1206#1207#0" expanded="false" />
+                    <element signature="e#1262#1263#0" expanded="false" />
+                    <element signature="e#1342#1343#0" expanded="false" />
+                    <element signature="e#1396#1397#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ValidationServiceImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java">
+          <file leaf-file-name="SecurityWebApplicationInitializer.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/SecurityWebApplicationInitializer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+                <state relative-caret-position="175">
+                  <caret line="7" column="96" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="96" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BudgetServiceImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/BudgetServiceImplementation.java">
+          <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/UserController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1350">
-                  <caret line="68" column="17" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+                <state relative-caret-position="200">
+                  <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
                   <folding>
-                    <element signature="e#2575#2576#0" expanded="true" />
-                    <element signature="e#2655#2656#0" expanded="true" />
+                    <element signature="imports" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SecurityConfiguration.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="250">
+                  <caret line="23" column="71" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="71" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Dispatcher.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/Dispatcher.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#962#963#0" expanded="false" />
+                    <element signature="e#1023#1024#0" expanded="false" />
+                    <element signature="e#1084#1085#0" expanded="false" />
+                    <element signature="e#1124#1125#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FailedLogInException.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FailedLogInException.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6575">
+                  <caret line="263" column="8" lean-forward="false" selection-start-line="263" selection-start-column="8" selection-end-line="267" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="WebConfiguration.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="525">
+                  <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UnAuthorizedException.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/UnAuthorizedException.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="125">
+                  <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#231#232#0" expanded="false" />
+                    <element signature="e#261#262#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestingDataBaseConfig.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="500">
+                  <caret line="35" column="121" lean-forward="false" selection-start-line="35" selection-start-column="121" selection-end-line="35" selection-end-column="121" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#1387#1388#0" expanded="false" />
+                    <element signature="e#1441#1442#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -420,6 +496,9 @@
       <find>amountat</find>
       <find>a</find>
       <find>amount</find>
+      <find>spring-mobile</find>
+      <find>jsonwebtoken</find>
+      <find>authenticationFailure</find>
     </findStrings>
     <replaceStrings>
       <replace>transactionService.NO_EXCPETION_THROWN</replace>
@@ -435,57 +514,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/interfaces/DefaultValueProviderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/InvalidDataProvidedException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/service/UserServiceImplementationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/EquityServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/BudgetServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/GroupingServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FaliedLogInException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FailedLogInException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/controller/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/service/AccountServiceImplementationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/service/AccountSetterServiceImplementationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/service/BudgetServiceImplementationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/service/BudgetPeriodServiceImplementationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/service/EquitySetterServiceImplementationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/DefaultValueProviderServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/InvalidType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/UserServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/model/AccountServiceDBIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/AccountServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/CurrencySetterServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/DeleteHelperServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/EquitySetterServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/controller/CustomExceptionTranslator.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/service/integration/UserServiceDBIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/budget/controller/BudgetPeriodControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/Dispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/CORSFilter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/controller/BudgetController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/ExchangeServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/AccountSetterServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/model/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/UnAuthorizedException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JwtAuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/controller/TransactionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JwtAuthToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JwtAuthManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/Dispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/DevDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/AuthUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/model/ReturnPack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/model/AuthResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/AuthResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JwtAuthProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/AlternateAuthFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JWTAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/service/UserServiceImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/AuthRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/controller/EquityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/controller/BudgetPeriodController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/controller/BudgetController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/controller/GroupingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/controller/AccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JwtTokenMalformedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JwtTokenMissingException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/EntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/assembler/EquityAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetPeriodAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/assembler/AccountAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/assembler/GroupingAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/assembler/TransactionAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/assembler/UserAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/accessories/validators/EmailValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/accessories/builder/TransactionBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/controller/CustomExceptionTranslator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FailedLogInException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java" />
         <option value="$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/repository/BudgetPeriodRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/model/BudgetPeriod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/model/Equity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/model/Grouping.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/DevDB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/budget/service/UserServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/budget/accessories/TestModelRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -547,13 +626,63 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="budget" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="compiler" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="budget" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="clean" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="budget" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="82" />
+    <option name="x" value="-2891" />
     <option name="y" value="-11" />
-    <option name="width" value="2489" />
-    <option name="height" value="1462" />
+    <option name="width" value="2808" />
+    <option name="height" value="1642" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -598,6 +727,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -630,23 +761,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -679,10 +794,6 @@
               <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -707,70 +818,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -818,96 +865,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="validators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Budget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -965,6 +922,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1190,6 +1181,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="assembler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="accessories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1204,20 +1225,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accessories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="budget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accessories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -1231,11 +1304,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="budget.config.security" />
       <recent name="budget.controller.exceptions" />
       <recent name="budget.assembler" />
       <recent name="budget.accessories.validators" />
       <recent name="budget.accessories.validators.interfaces" />
-      <recent name="budget.model" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -1251,11 +1324,11 @@
       <recent name="budget.accessories.TestModelRepo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="budget.config.security" />
       <recent name="budget.accessories" />
       <recent name="budget.controller" />
       <recent name="budget.model" />
       <recent name="budget.service" />
-      <recent name="budget.config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Java\Budget\src\main\resources" />
@@ -1273,7 +1346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CrossEffectManagerImplementationTest.shouldInvokeMethodsOnCreation">
+  <component name="RunManager" selected="JUnit.budget.service in Budget">
     <configuration default="false" name="budget.service in Budget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1300,80 +1373,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="budget.repository in Budget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="budget.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Budget" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="budget.repository" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="budget.model in Budget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="budget.service.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Budget" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="budget.model" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in Budget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Budget" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CrossEffectManagerImplementationTest.shouldInvokeMethodsOnCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CrossEffectManagerImplementationTest.shouldInvokeEquitySetterService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="budget.service.*" />
@@ -1385,8 +1385,86 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="budget.service" />
       <option name="MAIN_CLASS_NAME" value="budget.service.CrossEffectManagerImplementationTest" />
-      <option name="METHOD_NAME" value="shouldInvokeMethodsOnCreation" />
+      <option name="METHOD_NAME" value="shouldInvokeEquitySetterService" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CrossEffectManagerImplementationTest.shouldInvokeBudgetPeriodSetterService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="budget.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Budget" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="budget.service" />
+      <option name="MAIN_CLASS_NAME" value="budget.service.CrossEffectManagerImplementationTest" />
+      <option name="METHOD_NAME" value="shouldInvokeBudgetPeriodSetterService" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="budget.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Budget" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="budget.service" />
+      <option name="MAIN_CLASS_NAME" value="budget.service.UserServiceImplementationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TransactionServiceDataBaseIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="budget.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Budget" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="budget.service.integration" />
+      <option name="MAIN_CLASS_NAME" value="budget.service.integration.TransactionServiceDataBaseIntegrationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1553,18 +1631,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.budget.service in Budget" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.budget.repository in Budget" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.budget.model in Budget" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in Budget" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CrossEffectManagerImplementationTest.shouldInvokeMethodsOnCreation" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CrossEffectManagerImplementationTest.shouldInvokeEquitySetterService" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CrossEffectManagerImplementationTest.shouldInvokeBudgetPeriodSetterService" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceImplementationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TransactionServiceDataBaseIntegrationTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CrossEffectManagerImplementationTest.shouldInvokeMethodsOnCreation" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.budget.service in Budget" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Budget" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.budget.model in Budget" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.budget.repository in Budget" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.budget.service in Budget" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TransactionServiceDataBaseIntegrationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplementationTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CrossEffectManagerImplementationTest.shouldInvokeBudgetPeriodSetterService" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CrossEffectManagerImplementationTest.shouldInvokeEquitySetterService" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -1581,34 +1659,34 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Budget - 2017.03.21 at 18h 58m 23s.xml">
-      <configuration name="All in Budget" configurationId="JUnit" />
+    <history-entry file="CrossEffectManagerImplementationTest_shouldInvokeBudgetPeriodSetterService - 2017.04.08 at 11h 35m 29s.xml">
+      <configuration name="CrossEffectManagerImplementationTest.shouldInvokeBudgetPeriodSetterService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrossEffectManagerImplementationTest_shouldInvokeMethodsOnCreation - 2017.04.02 at 08h 07m 04s.xml">
-      <configuration name="CrossEffectManagerImplementationTest.shouldInvokeMethodsOnCreation" configurationId="JUnit" />
+    <history-entry file="CrossEffectManagerImplementationTest_shouldInvokeEquitySetterService - 2017.04.08 at 11h 35m 19s.xml">
+      <configuration name="CrossEffectManagerImplementationTest.shouldInvokeEquitySetterService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrossEffectManagerImplementationTest_shouldInvokeMethodsOnCreation - 2017.04.02 at 08h 08m 05s.xml">
-      <configuration name="CrossEffectManagerImplementationTest.shouldInvokeMethodsOnCreation" configurationId="JUnit" />
+    <history-entry file="CrossEffectManagerImplementationTest_shouldInvokePeriodCreatorServiceMethod - 2017.04.08 at 11h 34m 34s.xml">
+      <configuration name="CrossEffectManagerImplementationTest.shouldInvokePeriodCreatorServiceMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="budget_model_in_Budget - 2016.12.24 at 16h 36m 10s.xml">
-      <configuration name="budget.model in Budget" configurationId="JUnit" />
+    <history-entry file="CrossEffectManagerImplementationTest_shouldInvokePeriodCreatorServiceMethod - 2017.04.08 at 11h 35m 15s.xml">
+      <configuration name="CrossEffectManagerImplementationTest.shouldInvokePeriodCreatorServiceMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="budget_repository_in_Budget - 2016.12.24 at 13h 39m 21s.xml">
-      <configuration name="budget.repository in Budget" configurationId="JUnit" />
+    <history-entry file="TransactionServiceDataBaseIntegrationTest - 2017.04.08 at 11h 43m 41s.xml">
+      <configuration name="TransactionServiceDataBaseIntegrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="budget_service_in_Budget - 2016.12.24 at 12h 53m 13s.xml">
+    <history-entry file="UserServiceImplementationTest - 2017.04.08 at 11h 36m 43s.xml">
+      <configuration name="UserServiceImplementationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplementationTest - 2017.04.08 at 11h 39m 25s.xml">
+      <configuration name="UserServiceImplementationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="budget_service_in_Budget - 2017.04.08 at 11h 35m 53s.xml">
       <configuration name="budget.service in Budget" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="budget_service_in_Budget - 2016.12.24 at 12h 54m 15s.xml">
+    <history-entry file="budget_service_in_Budget - 2017.04.08 at 11h 40m 55s.xml">
       <configuration name="budget.service in Budget" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="budget_service_in_Budget - 2016.12.24 at 12h 56m 00s.xml">
-      <configuration name="budget.service in Budget" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="budget_service_in_Budget - 2017.04.02 at 08h 00m 30s.xml">
-      <configuration name="budget.service in Budget" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="budget_service_in_Budget - 2017.04.02 at 08h 04m 17s.xml">
+    <history-entry file="budget_service_in_Budget - 2017.04.08 at 11h 44m 08s.xml">
       <configuration name="budget.service in Budget" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1622,23 +1700,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="82" y="-11" width="2489" height="1462" extended-state="6" />
-    <editor active="true" />
+    <frame x="-2891" y="-11" width="2808" height="1642" extended-state="6" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19148937" sideWeight="0.49691358" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17599411" sideWeight="0.49691358" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2751817" sideWeight="0.36990076" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12181894" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21391752" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30848533" sideWeight="0.63009924" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17034584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3372658" sideWeight="0.63009924" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17021276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22861911" sideWeight="0.50308645" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38213915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831088" sideWeight="0.46527013" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.46527013" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1656,18 +1733,18 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2751817" sideWeight="0.36990076" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13808928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12181894" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06264869" sideWeight="0.63009924" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22363204" sideWeight="0.63009924" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22861911" sideWeight="0.49691358" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652065" sideWeight="0.49691358" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24427481" sideWeight="0.48897463" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17034584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25614592" sideWeight="0.48897463" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17021276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22861911" sideWeight="0.50308645" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38213915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1692,367 +1769,454 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="91" />
+      <option name="time" value="93" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/AccountSetterServiceImplementationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/GroupingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/EquityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodServiceImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/angular-cli.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/src/app/components/account/account.component.ts" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/out-tsc/main.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/out-tsc/app/components/account/account.component.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/CORSFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/Dispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/repository/TransactionRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/repository/GroupingRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/repository/BudgetRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/BudgetController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/ExchangeServiceImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="26" column="98" lean-forward="false" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/rt.jar!/sun/font/GraphicComponent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/GroupingServiceImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/AccountSetterServiceImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/CurrencySetterServiceImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/budget/config/DataBaseConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/repository/EquityRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/Budget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="72" column="35" lean-forward="false" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6750">
-          <caret line="270" column="29" lean-forward="false" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/AuthenticationFailure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/CustomExceptionTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/InvalidDataProvidedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/UnAuthorizedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/EQType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
-          <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/TransactionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="72" column="70" lean-forward="false" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
-          <folding />
+        <state relative-caret-position="575">
+          <caret line="53" column="67" lean-forward="false" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/AccountServiceImplementationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="121" column="31" lean-forward="false" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
+        <state relative-caret-position="700">
+          <caret line="60" column="64" lean-forward="false" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/BudgetPeriod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JwtTokenMalformedException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="200">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/Equity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/EntryPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/BudgetRestException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="157" column="35" lean-forward="false" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="125">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/repository/BudgetPeriodRepositoryImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/InvalidDataProvidedException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="75" column="64" lean-forward="false" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="175">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/BudgetPeriodSetterServiceImplementationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/ResourceAlreadyExists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="75" column="31" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="175">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/BudgetServiceImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/ResourceNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="68" column="17" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        <state relative-caret-position="175">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/UnAuthorizedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#2575#2576#0" expanded="true" />
-            <element signature="e#2655#2656#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#261#262#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JwtTokenMissingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/repository/UserRepositoryImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/AccountServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-941">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/assembler/EquityAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/assembler/BudgetPeriodAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/assembler/BudgetAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/assembler/AccountAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/assembler/GroupingAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/assembler/TransactionAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/assembler/UserAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/ErrorDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/validators/EmailValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/builder/TransactionBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/AuthRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/AuthResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/CustomExceptionTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="68" column="157" lean-forward="false" selection-start-line="68" selection-start-column="157" selection-end-line="68" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FailedLogInException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/DetailedRestErrorMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/InvalidType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/GroupingServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3651#3652#0" expanded="false" />
+            <element signature="e#3709#3710#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="62" column="37" lean-forward="false" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        <state relative-caret-position="225">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2778#2779#0" expanded="false" />
+            <element signature="e#2839#2840#0" expanded="false" />
+            <element signature="e#3262#3263#0" expanded="false" />
+            <element signature="e#3329#3330#0" expanded="false" />
+            <element signature="e#3402#3403#0" expanded="false" />
+            <element signature="e#3467#3468#0" expanded="false" />
+            <element signature="e#3546#3547#0" expanded="false" />
+            <element signature="e#3615#3616#0" expanded="false" />
+            <element signature="e#3688#3689#0" expanded="false" />
+            <element signature="e#3753#3754#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2825">
-          <caret line="128" column="51" lean-forward="false" selection-start-line="128" selection-start-column="45" selection-end-line="128" selection-end-column="51" />
-          <folding />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1226#1227#0" expanded="false" />
+            <element signature="e#1271#1272#0" expanded="false" />
+            <element signature="e#1350#1351#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="1975">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#5896#5897#0" expanded="false" />
+            <element signature="e#5950#5951#0" expanded="false" />
+            <element signature="e#6008#6009#0" expanded="false" />
+            <element signature="e#6062#6063#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4700">
+          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/UserServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2579#2580#0" expanded="false" />
+            <element signature="e#2620#2621#0" expanded="false" />
+            <element signature="e#3086#3087#0" expanded="false" />
+            <element signature="e#3157#3158#0" expanded="false" />
+            <element signature="e#3205#3206#0" expanded="false" />
+            <element signature="e#3252#3253#0" expanded="false" />
+            <element signature="e#3930#3931#0" expanded="false" />
+            <element signature="e#3981#3982#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/budget/accessories/TestModelRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/UserServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="35" column="121" lean-forward="false" selection-start-line="35" selection-start-column="121" selection-end-line="35" selection-end-column="121" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1387#1388#0" expanded="false" />
+            <element signature="e#1441#1442#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/integration/TransactionServiceDataBaseIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/Transaction.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+        <state relative-caret-position="6575">
+          <caret line="263" column="8" lean-forward="false" selection-start-line="263" selection-start-column="8" selection-end-line="267" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/DevDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="500">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1206#1207#0" expanded="false" />
+            <element signature="e#1262#1263#0" expanded="false" />
+            <element signature="e#1342#1343#0" expanded="false" />
+            <element signature="e#1396#1397#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/Dispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
+            <element signature="e#1023#1024#0" expanded="false" />
+            <element signature="e#1084#1085#0" expanded="false" />
+            <element signature="e#1124#1125#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/SecurityWebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="96" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/model/Grouping.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="200">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="72" column="53" lean-forward="true" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/EntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="250">
+          <caret line="23" column="71" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="71" />
           <folding />
         </state>
       </provider>

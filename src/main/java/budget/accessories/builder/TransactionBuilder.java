@@ -40,84 +40,85 @@ public class TransactionBuilder {
 
     private BigDecimal getAmountAtTheMomentOfTransactionForBudget;
 
-    private TransactionBuilder(){}
+    private TransactionBuilder() {
+    }
 
-    private TransactionBuilder (User user, Account account){
+    private TransactionBuilder(User user, Account account) {
         this.account = account;
         this.user = user;
         this.currency = Currency.GBP;
     }
 
-    public static TransactionBuilder initialize(User user, Account account){
+    public static TransactionBuilder initialize(User user, Account account) {
         return new TransactionBuilder(user, account);
     }
 
-    public TransactionBuilder setAmount(double amount){
+    public TransactionBuilder setAmount(double amount) {
         this.amount = new BigDecimal(amount);
         return this;
     }
 
-    public TransactionBuilder setCurrency(Currency currency){
+    public TransactionBuilder setCurrency(Currency currency) {
         this.currency = currency;
         return this;
     }
 
-    public TransactionBuilder setEquity(Equity equity){
+    public TransactionBuilder setEquity(Equity equity) {
         this.equity = equity;
         return this;
     }
 
-    public TransactionBuilder setIdentifier(long identifier){
+    public TransactionBuilder setIdentifier(long identifier) {
         this.identifier = identifier;
         return this;
     }
 
-    public TransactionBuilder setBudget(Budget budget){
+    public TransactionBuilder setBudget(Budget budget) {
         this.budget = budget;
         return this;
     }
 
-    public TransactionBuilder setAmountAtTheMomentOfTransactionForAccount(double amount){
+    public TransactionBuilder setAmountAtTheMomentOfTransactionForAccount(double amount) {
         this.amountAtTheMomentOfTransactionForAccount = new BigDecimal(amount);
         return this;
     }
 
-    public TransactionBuilder setAmountAtTheMomentOfTransactionForEQ(double amount){
+    public TransactionBuilder setAmountAtTheMomentOfTransactionForEQ(double amount) {
         this.amountAtTheMomentOfTransactionForEQ = new BigDecimal(amount);
         return this;
     }
 
-    public TransactionBuilder setAmountAtTheMomentOfTransactionForBudget(double amount){
+    public TransactionBuilder setAmountAtTheMomentOfTransactionForBudget(double amount) {
         this.getAmountAtTheMomentOfTransactionForBudget = new BigDecimal(amount);
         return this;
     }
 
-    public TransactionBuilder setBudgetPeriod(BudgetPeriod period){
-        this.budgetPeriod=period;
+    public TransactionBuilder setBudgetPeriod(BudgetPeriod period) {
+        this.budgetPeriod = period;
         return this;
     }
 
-    public TransactionBuilder setPeriod(Period period){
+    public TransactionBuilder setPeriod(Period period) {
         this.period = period;
         return this;
     }
 
-    public TransactionBuilder setGrouping (Grouping grouping){
+    public TransactionBuilder setGrouping(Grouping grouping) {
         this.grouping = grouping;
         return this;
     }
 
-    public TransactionBuilder setCreationDate (Date creationDate){
+    public TransactionBuilder setCreationDate(Date creationDate) {
         this.creationDate = creationDate;
         return this;
     }
 
-    public TransactionBuilder setName (String name){
+    public TransactionBuilder setName(String name) {
         this.name = name;
         return this;
     }
 
-    public Transaction build(){
+    public Transaction build() {
         Transaction transaction = new Transaction();
 
         transaction.setUser(this.user);

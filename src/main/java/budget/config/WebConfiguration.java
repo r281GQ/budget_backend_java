@@ -11,7 +11,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * Created by veghe on 24/07/2016.
  */
 @Configuration
-
 @EnableWebMvc
 @ComponentScan(basePackages = "budget")
 public class WebConfiguration extends WebMvcConfigurerAdapter {
@@ -21,11 +20,7 @@ public class WebConfiguration extends WebMvcConfigurerAdapter {
         registry.addResourceHandler("/resources/**").addResourceLocations("/dist/");
     }
 
-
-
-            public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedMethods("DELETE", "PUT", "OPTIONS", "GET", "POST");
-            }
-
-
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**").allowedMethods("DELETE", "PUT", "OPTIONS", "GET", "POST");
+    }
 }

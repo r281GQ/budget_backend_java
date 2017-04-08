@@ -1,18 +1,19 @@
 package budget.config.security;
 
-import budget.config.CORSFilter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-
-import javax.servlet.Filter;
-
-//import org.springframework.http.HttpMethod;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
  * Created by veghe on 05/11/2016.
@@ -22,104 +23,75 @@ import javax.servlet.Filter;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
-    private Filter f = new CORSFilter();
-
-    @Autowired
-    private AuthenticationFailure authenticationFailure;
-
     @Autowired
     private BudgetUserService userDetailsService;
 
     @Autowired
-    private AuthenticationSuccess authenticationSucces;
-
-    @Autowired
     private EntryPoint entryPoint;
 
-    @Autowired
-    public void configureGlobal(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {
-        authenticationManagerBuilder.userDetailsService(userDetailsService);
+    @Bean
+    public JWTTokenUtil getJwtTokenUtil() {
+        return new JWTTokenUtil();
     }
 
-//    @Override
-//    protected void configure(HttpSecurity http) throws Exception {
-//        http.
-//                csrf().disable().
-//                exceptionHandling().authenticationEntryPoint(entryPoint).and().
-//                authorizeRequests().
-//                        anyRequest().authenticated().
-//                        antMatchers("/**").
-//                        hasAnyRole("USER").
-//                        and().
-//                    formLogin().
-//                        failureHandler(authenticationFailure).
-//                        successHandler(authenticationSucces).
-//                    permitAll();
-//    }
+    @Bean
+    public AuthenticationManager getAuthManager() throws Exception {
+        return super.authenticationManager();
+    }
+
+    @Bean
+    public JWTAuthenticationFilter getJWTAuthenticationFilter() throws Exception {
+        JWTAuthenticationFilter jwtAuthenticationFilter = new JWTAuthenticationFilter();
+        jwtAuthenticationFilter.setAuthenticationManager(getAuthManager());
+        return jwtAuthenticationFilter;
+    }
+
+    @Bean
+    public BCryptPasswordEncoder getBCryptPasswordEncoder(){
+        return new BCryptPasswordEncoder();
+    }
+
+    @Bean
+    public JwtAuthProvider getJwtAuthProvider() {
+        return new JwtAuthProvider();
+    }
 
     @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        http.
-                csrf().disable().
-//                            sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).
-//                            and().
-//                            securityContext().securityContextRepository(null).and().
-                    authorizeRequests()
-                        //css or certain frontend content to be available
-                        //going from top to down
-                                .antMatchers(HttpMethod.OPTIONS,"/**").permitAll()
-
-                        .antMatchers("/resources/**","/users/create").permitAll().
-                        anyRequest().authenticated().
-                            and().
-//                csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).ignoringAntMatchers("/users/create").
-//                        and().
-                        httpBasic();
-
-//                    formLogin().permitAll();
-
+    protected void configure (AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {
+        authenticationManagerBuilder.authenticationProvider(getJwtAuthProvider());
+        authenticationManagerBuilder.userDetailsService(userDetailsService).passwordEncoder(getBCryptPasswordEncoder());
     }
 
-//    @Override
-//    protected void configure(HttpSecurity http) throws Exception {
-//        http.
-//                addFilterAfter(f, BasicAuthenticationFilter.class).
-//                csrf().disable().
-//                authorizeRequests().
-//                //css or certain frontend content to be available
-//                //going from top to down
-//                        antMatchers("/resources/**").permitAll()
-//                .antMatchers(HttpMethod.OPTIONS,"/**").permitAll().
-//                anyRequest().authenticated().and().httpBasic().
-//                and().anonymous().disable().exceptionHandling().authenticationEntryPoint(new BasicAuthenticationEntryPoint() {
-//            @Override
-//            public void commence(final HttpServletRequest request, final HttpServletResponse response, final AuthenticationException authException) throws IOException, ServletException {
-//                if (HttpMethod.OPTIONS.equals(request.getMethod())) {
-//                    response.setStatus(HttpServletResponse.SC_OK);
-//                    response.setHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, request.getHeader(HttpHeaders.ORIGIN));
-//                    response.setHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_HEADERS, request.getHeader(HttpHeaders.ACCESS_CONTROL_REQUEST_HEADERS));
-//                    response.setHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_METHODS, request.getHeader(HttpHeaders.ACCESS_CONTROL_REQUEST_METHOD));
-//                    response.setHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_CREDENTIALS, "true");
-//                } else {
-//                    response.sendError(HttpServletResponse.SC_UNAUTHORIZED, authException.getMessage());
-//                }
-//            } });
-////                formLogin().
-////                permitAll();
-//
-//        }
-
-//    @Bean
-//    public FilterRegistrationBean corsFilter() {
-//        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-//        CorsConfiguration config = new CorsConfiguration();
-//        config.setAllowCredentials(true);
-//        config.addAllowedOrigin("http://localhost:4200");
-//        config.addAllowedHeader("*");
-//        config.addAllowedMethod("*");
-//        source.registerCorsConfiguration("/**", config);
-//        FilterRegistrationBean bean = new FilterRegistrationBean(new CorsFilter(source));
-//        bean.setOrder(0);
-//        return bean;
-//    }
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+        web.ignoring().
+                //allowing pre-flight requests
+                antMatchers(HttpMethod.OPTIONS, "/**").
+                //so users can sign up
+                antMatchers(HttpMethod.POST,"/signUp").
+                //so users can log in
+                antMatchers(HttpMethod.POST,"/auth");
     }
+
+    @Override
+    protected void configure(HttpSecurity httpSecurity) throws Exception {
+        httpSecurity.
+            //since it is not a multi-page app we do not need cross-site-srcipting-forgery protection
+            csrf().disable().
+            exceptionHandling().authenticationEntryPoint(entryPoint)
+                .and()
+            //there is no need to populate the httpSession with principal since it is a stateless security implementation
+            .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).
+                and()
+            //any requests should be authenticated
+            .authorizeRequests().anyRequest().authenticated()
+                .and()
+            //all these methods should be disabled since we have our own implementation
+            .httpBasic().disable()
+            .formLogin().disable()
+            .logout().disable();
+
+        //register our own filter
+        httpSecurity.addFilterBefore(getJWTAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
+    }
+}

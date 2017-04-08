@@ -19,10 +19,13 @@ public class BudgetUserService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        BudgetUser userDetails = new BudgetUser(userService.getByEmail(username));
+        BudgetUser userDetails = null;
 
-        if(userDetails == null)
+        try {
+            userDetails = new BudgetUser(userService.getByEmail(username));
+        } catch (Exception e) {
             throw new FailedLogInException(username);
+        }
 
         return userDetails;
     }

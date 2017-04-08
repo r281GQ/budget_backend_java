@@ -30,7 +30,7 @@ public class ValidationServiceImplementation implements ValidationService {
     private GroupingRepository groupingRepository;
 
     @Autowired
-    TransactionRepository transactionRepository;
+    private TransactionRepository transactionRepository;
 
     @Override
     public boolean hasIdentifier(BudgetModel budgetModel) {
@@ -54,7 +54,6 @@ public class ValidationServiceImplementation implements ValidationService {
         boolean usersEquals = inDB.getUser().equals(budgetPeriod.getUser());
 
         boolean budgetEquals = inDB.getBudget().equals(budgetPeriod.getBudget());
-
 
         return periodsEquals && balancesEquals && usersEquals && budgetEquals;
     }
@@ -81,7 +80,6 @@ public class ValidationServiceImplementation implements ValidationService {
     @Override
     public boolean isUpdateAble(Transaction transaction) {
         Transaction inDB = transactionRepository.get(transaction.getIdentifier());
-//        return transaction.getUser().getIdentifier() == inDB.getUser().getIdentifier();
         return transaction.getUser().equals(inDB.getUser());
 
     }
@@ -93,12 +91,6 @@ public class ValidationServiceImplementation implements ValidationService {
 
         return inDB.getUser().getIdentifier() == grouping.getUser().getIdentifier() && inDB.getType().equals(grouping.getType());
     }
-
-//    @Override
-//    public boolean isCreateAble(User user) {
-////        user.getIdentifier() == null && user.getEmail() != null && user.getRole() != null &&user.getName()
-//        return false;
-//    }
 
     private Account extractDataBaseAccount(Account account) {
         return accountRepository.get(account.getIdentifier());

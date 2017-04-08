@@ -16,9 +16,9 @@ import java.io.Serializable;
  */
 
 @Component
-public class AccountAssembler extends ResourceAssemblerSupport <Account, AccountResource> implements Serializable {
+public class AccountAssembler extends ResourceAssemblerSupport<Account, AccountResource> implements Serializable {
 
-    public AccountAssembler(){
+    public AccountAssembler() {
         super(AccountController.class, AccountResource.class);
     }
 

@@ -18,14 +18,6 @@ import javax.servlet.ServletRegistration;
  */
 public class Dispatcher extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-//    @Override
-//    protected Filter[] getServletFilters() {
-//        Filter [] basic = super.getServletFilters();
-//        List<Filter> f = new ArrayList<>(Arrays.asList(basic));
-//        f.add(new CORSFilter());
-//        return (Filter[]) f.toArray();
-//    }
-
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class<?>[]{TestingDataBaseConfig.class, DevDB.class, SecurityConfiguration.class};

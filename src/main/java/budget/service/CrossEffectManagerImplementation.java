@@ -76,6 +76,9 @@ public class CrossEffectManagerImplementation implements CrossEffectManager {
     @Override
     public void createTransaction(Transaction transaction) {
 
+        if(transaction.getCurrency()== null)
+            throw new InvalidDataProvidedException("Transaction must have currency!", transaction);
+
         checkDependencies(transaction);
 
         setDependencies(transaction);
@@ -83,7 +86,7 @@ public class CrossEffectManagerImplementation implements CrossEffectManager {
         if (hasBudget(transaction)){
             transaction.setBudget(budgetRepository.get(transaction.getBudget().getIdentifier()));
             if(transaction.getGrouping().getType().equals(Type.INCOME))
-                throw new InvalidDataProvidedException("transaction cannot be income if it belongs to a budget", transaction);
+                throw new InvalidDataProvidedException("Transaction cannot be income if it belongs to a budget!", transaction);
         }
 
         if (hasEquity(transaction))

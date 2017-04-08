@@ -15,7 +15,7 @@ public class TestModelRepo {
     private static final SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat("MM-yyyy");
 
     public static final String ROLE_ADMIN = "ROLE_ADMIN";
-    public static final String ROLE_USER = "USER";
+    public static final String ROLE_USER = "ROLE_USER";
     public static final String BASIC_USER_EMAIL = "endre@mail.oom";
     public static final String BASIC_USER_NAME = "Endre Vegh";
     public static final String BASIC_USER_PASSWORD = "password" ;

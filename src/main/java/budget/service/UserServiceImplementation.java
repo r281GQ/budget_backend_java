@@ -10,6 +10,7 @@ import budget.service.interfaces.DefaultValueProviderService;
 import budget.service.interfaces.DeleteHelperService;
 import budget.service.interfaces.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -21,6 +22,9 @@ import java.util.List;
 @Service
 @Transactional
 public class UserServiceImplementation implements UserService {
+
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
     private ValidationService validationService;
@@ -74,13 +78,15 @@ public class UserServiceImplementation implements UserService {
 
         checkIfUserExistsBasedOnEmail(user);
 
+        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+
         setDefaultRole(user);
 
         userRepository.create(user);
     }
 
     private void setDefaultRole(User user) {
-        user.setRole("USER");
+        user.setRole("ROLE_USER");
     }
 
     @Override

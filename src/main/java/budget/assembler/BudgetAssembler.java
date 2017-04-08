@@ -16,9 +16,9 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
  * Created by veghe on 20/11/2016.
  */
 @Component
-public class BudgetAssembler extends ResourceAssemblerSupport <Budget, BudgetResource> {
+public class BudgetAssembler extends ResourceAssemblerSupport<Budget, BudgetResource> {
 
-    public BudgetAssembler (){
+    public BudgetAssembler() {
         super(BudgetController.class, BudgetResource.class);
     }
 

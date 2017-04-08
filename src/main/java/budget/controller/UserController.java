@@ -28,21 +28,17 @@ public class UserController {
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/users/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#id == principal.user.identifier")
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#id)")
     public UserResource get(@PathVariable ("id") @P("id") long id){ return userAssembler.toResource(userService.getById(id));}
-
-    @ResponseStatus(HttpStatus.CREATED)
-    @RequestMapping(value = "/users", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public void create(@RequestBody @Valid User user){ userService.create(user);}
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/users", method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#user.identifier == principal.user.identifier")
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#user.identifier)")
     public void update(@RequestBody @P("user") @Valid User user){userService.update(user);}
 
     @ResponseStatus(HttpStatus.ACCEPTED)
     @RequestMapping(value = "/users/{id}", method = RequestMethod.DELETE)
-    @PreAuthorize("#id == principal.user.identifier")
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#id)")
     public void delete(@PathVariable ("id") @P("id") long id){
         userService.delete(wrapUser(id));}
 

@@ -7,7 +7,7 @@ import budget.model.*;
  */
 public interface ValidationService {
 
-    boolean hasIdentifier (BudgetModel budgetModel);
+    boolean hasIdentifier(BudgetModel budgetModel);
 
     boolean isUpdateAble(Account account);
 

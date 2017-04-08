@@ -37,7 +37,7 @@ public class TransactionServiceImplementation implements TransactionService {
     public void create(Transaction transaction) {
         if(transaction == null){
             transaction = new Transaction();
-//            transaction.setIdentifier(0L);
+            transaction.setIdentifier(0L);
             throw new InvalidDataProvidedException(defaultValueProviderService.getExceptionMessages(InvalidType.NO_CONTENT_PROVIDED), transaction);
         }
         if (transaction.getIdentifier() != null)

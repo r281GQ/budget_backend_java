@@ -30,14 +30,14 @@ public class BudgetController {
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/budgets/{id}",method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PostAuthorize("returnObject.body.user.identifier == principal.user.identifier")
+    @PostAuthorize("@securityHelper.isUserProvidedPrincipal(returnObject.user.identifier)")
     BudgetResource get(@PathVariable ("id") long id){
         return budgetAssembler.toResource(budgetService.getById(id));
     }
 
     @ResponseStatus(HttpStatus.CREATED)
     @RequestMapping(value = "/budgets",method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#budget.user.identifier == principal.user.identifier")
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#budget.user.identifier)")
     void create(@RequestBody @P("budget") Budget budget){
         budgetService.create(budget);
     }
@@ -51,14 +51,14 @@ public class BudgetController {
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/budgets",method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#budget.user.identifier == principal.user.identifier && @securityHelper.isRealResource(#budget)")
+    @PreAuthorize("@securityHelper.doesBudgetBelongToLoggedInUser(#budget.identifier)")
     void update(@RequestBody @P("budget") Budget budget){
         budgetService.update(budget);
     }
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/users/{id}/budgets", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#id == principal.user.identifier")
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#id)")
     List <BudgetResource> getBudgetsByUser(@PathVariable ("id") @P("id") long id){
         return budgetService.getByUser(wrapUserId(id)).stream().map(budget -> budgetAssembler.toResource(budget)).collect(Collectors.toList());
     }

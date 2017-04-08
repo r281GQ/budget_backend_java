@@ -31,28 +31,28 @@ public class BudgetPeriodController {
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/budgetPeriods/{id}",method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PostAuthorize("returnObject.body.user.identifier == principal.user.identifier")
-    BudgetPeriodResource get(@PathVariable ("id") @P("id") long id){
+    @PostAuthorize("@securityHelper.isUserProvidedPrincipal(returnObject.user.identifier)")
+    public BudgetPeriodResource get(@PathVariable ("id") @P("id") long id){
         return budgetPeriodAssembler.toResource(budgetPeriodService.getById(id));
     }
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/budgetPeriods",method = RequestMethod.PUT,consumes = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#budgetPeriod.user.identifier == principal.user.identifier and @securityHelper.isRealResource(#budgetPeriod) and @securityHelper.doesBudgetBelongToLoggedInUser(#budgetPeriod.budget.identifier)")
-    void update(@RequestBody @P("budgetPeriod") BudgetPeriod budgetPeriod){
+    @PreAuthorize("@securityHelper.doesBudgetPeriodBelongToLoggedInUser(#budgetPeriod.identifier)")
+    public void update(@RequestBody @P("budgetPeriod") BudgetPeriod budgetPeriod){
         budgetPeriodService.update(budgetPeriod);
     }
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/users/{id}/budgetPeriods", produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#id == principal.user.identifier")
-    List<BudgetPeriodResource> budgetPeriodsByUser(@PathVariable ("id") @P("id") long id){
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#id)")
+    public List<BudgetPeriodResource> budgetPeriodsByUser(@PathVariable ("id") @P("id") long id){
         return budgetPeriodService.getByUser(wrapUserId(id)).stream().map(budgetPeriod -> budgetPeriodAssembler.toResource(budgetPeriod)).collect(Collectors.toList());
     }
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/budgets/{id}/budgetPeriods", produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("@securityHelper.doesBudgetBelongToLoggedInUser(#id)")
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#id)")
     List<BudgetPeriodResource> budgetPeriodsByBudget(@PathVariable ("id") @P("id") long id){
         return budgetPeriodService.getByBudget(wrapBudgetId(id)).stream().map(budgetPeriod -> budgetPeriodAssembler.toResource(budgetPeriod)).collect(Collectors.toList());
     }

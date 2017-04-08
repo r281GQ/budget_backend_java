@@ -66,6 +66,6 @@ public class CustomExceptionTranslator {
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
     @ExceptionHandler(FailedLogInException.class)
     public DetailedRestErrorMessage failedLogIn(FailedLogInException e) {
-        return new DetailedRestErrorMessage(HttpStatus.UNAUTHORIZED, "Login failed, check your email.", e.getMessage());
+        return new DetailedRestErrorMessage(HttpStatus.UNAUTHORIZED, "Login failed, either there is no such user or the password is invalid.", e.getMessage());
     }
 }

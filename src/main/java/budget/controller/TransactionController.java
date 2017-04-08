@@ -27,17 +27,10 @@ public class TransactionController {
     @Autowired
     private TransactionAssembler transactionAssembler;
 
-//    @ResponseStatus(HttpStatus.OK)
-//    @RequestMapping(value = "/transactions/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-//    @PostAuthorize("returnObject.user.identifier == principal.user.identifier, @securityHelper.isUserProvidedPrincipal(returnObject.user.identifier)")
-//    public TransactionResource get(@PathVariable("id") long id ){
-//        return  transactionAssembler.toResource(transactionService.get(id));
-//    }
-
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/transactions/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @PostAuthorize("@securityHelper.isUserProvidedPrincipal(returnObject.user.identifier)")
-    public TransactionResource get(@PathVariable("id") long id ){
+    public TransactionResource get(@PathVariable("id") long id){
         return  transactionAssembler.toResource(transactionService.get(id));
     }
 
@@ -47,13 +40,6 @@ public class TransactionController {
     public void update(@RequestBody @P("transaction")  Transaction transaction)  {
         transactionService.update(transaction);
     }
-
-//    @ResponseStatus(HttpStatus.OK)
-//    @RequestMapping(value = "/transactions", method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
-//    @PreAuthorize("#transaction.user.identifier == principal.user.identifier and @securityHelper.doResourcesBelongToPrincipal(#transaction) ")
-//    public void update(@RequestBody @P("transaction")  Transaction transaction)  {
-//        transactionService.update(transaction);
-//    }
 
     @ResponseStatus(HttpStatus.CREATED)
     @RequestMapping(value = "/transactions" ,method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)

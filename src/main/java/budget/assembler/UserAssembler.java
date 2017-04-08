@@ -7,17 +7,13 @@ import org.springframework.hateoas.Link;
 import org.springframework.hateoas.mvc.ResourceAssemblerSupport;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 
 /**
  * Created by veghe on 09/08/2016.
  */
 @Component
-public class UserAssembler extends ResourceAssemblerSupport <User, UserResource>{
+public class UserAssembler extends ResourceAssemblerSupport<User, UserResource> {
 
     public UserAssembler() {
         super(UserController.class, UserResource.class);

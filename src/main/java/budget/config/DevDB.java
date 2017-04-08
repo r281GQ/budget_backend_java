@@ -33,14 +33,10 @@ public class DevDB {
         return new ExchangeService() {
             @Override
             public BigDecimal getRate(String currencyPair) {
-//                return currencyPair.equals("GBPGBP") || currencyPair.equals("EUREUR") ? new BigDecimal(1) : new BigDecimal(2);
-
                 return new BigDecimal(1);
-
             }
         };
     }
-
 
     @Bean
     public SimpleDateFormat getSimpleDateFormat() {
@@ -58,10 +54,7 @@ public class DevDB {
     @Bean
     public DataSource getDataSource() {
         SimpleDriverDataSource ds = new SimpleDriverDataSource();
-
         ds.setDriverClass(Driver.class);
-
-//        ds.setUrl("jdbc:mysql://localhost:3306/budget_development?autoReconnect=true&useSSL=false");
         ds.setUrl("jdbc:mysql://localhost:3306/budget_development?autoReconnect=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC");
         ds.setUsername("root");
         ds.setPassword("hkYrt61R3N");
@@ -94,19 +87,4 @@ public class DevDB {
         container.setJpaProperties(getEntityProperties());
         return container;
     }
-
-
-//    @Bean
-//    public FilterRegistrationBean corsFilter() {
-//        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-//         config = new CorsConfiguration();
-//        config.setAllowCredentials(true);
-//        config.addAllowedOrigin("http://localhost:4200");
-//        config.addAllowedHeader("*");
-//        config.addAllowedMethod("*");
-//        source.registerCorsConfiguration("/**", config);
-//        FilterRegistrationBean bean = new FilterRegistrationBean(new CorsFilter(source));
-//        bean.setOrder(0);
-//        return bean;
-//    }
 }

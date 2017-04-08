@@ -30,18 +30,19 @@ public class AccountController {
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/accounts/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PostAuthorize("returnObject.user.identifier == principal.user.identifier")
+    @PostAuthorize("@securityHelper.isUserProvidedPrincipal(returnObject.user.identifier)")
     public AccountResource get(@PathVariable ("id") @P("id") long id){ return accountAssembler.toResource(accountService.getById(id));}
 
     @ResponseStatus(HttpStatus.CREATED)
     @RequestMapping(value = "/accounts", method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#account.user.identifier == principal.user.identifier")
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#account.user.identifier)")
     public void create(@RequestBody @P("account") Account account){
         accountService.create(account);
     }
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/accounts" ,method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    @PreAuthorize("@securityHelper.doesAccountBelongToLoggedInUser(#account.identifier)")
     public void update(@RequestBody @P("account") Account account) {
         accountService.update(account);
     }
@@ -55,7 +56,7 @@ public class AccountController {
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/users/{id}/accounts", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#id == principal.user.identifier")
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#id)")
     public List<AccountResource> getAccountsByUser(@PathVariable ("id") @P("id") long id){
         return accountService.getByUser(wrapUserId(id)).stream().map(account -> accountAssembler.toResource(account)).collect(Collectors.toList());
     }

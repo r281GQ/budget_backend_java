@@ -34,7 +34,7 @@ public class EquityAssembler extends ResourceAssemblerSupport<Equity, EquityReso
 
         Link user = linkTo(UserController.class).slash("users").slash(entity.getUser().getIdentifier()).withRel("user");
 
-        Link self =linkTo(EquityController.class).slash("equities").slash(entity.getIdentifier()).withSelfRel();
+        Link self = linkTo(EquityController.class).slash("equities").slash(entity.getIdentifier()).withSelfRel();
 
         equityResource.add(transactions, user, self);
 

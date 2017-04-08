@@ -40,9 +40,9 @@ public class TransactionAssembler extends ResourceAssemblerSupport<Transaction, 
         return transactionResource;
     }
 
-    private Equity prepareEquity(Transaction entity){
+    private Equity prepareEquity(Transaction entity) {
         Equity equity = entity.getEquity();
-        if(equity != null)
+        if (equity != null)
             equity.setUser(null);
         return equity;
     }

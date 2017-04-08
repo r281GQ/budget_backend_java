@@ -16,7 +16,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
  * Created by veghe on 21/11/2016.
  */
 @Component
-public class BudgetPeriodAssembler extends ResourceAssemblerSupport <BudgetPeriod, BudgetPeriodResource> {
+public class BudgetPeriodAssembler extends ResourceAssemblerSupport<BudgetPeriod, BudgetPeriodResource> {
 
     public BudgetPeriodAssembler() {
         super(BudgetPeriodController.class, BudgetPeriodResource.class);
@@ -27,7 +27,7 @@ public class BudgetPeriodAssembler extends ResourceAssemblerSupport <BudgetPerio
         return assignValues(entity);
     }
 
-    private BudgetPeriodResource assignValues(BudgetPeriod entity){
+    private BudgetPeriodResource assignValues(BudgetPeriod entity) {
 
         BudgetPeriodResource budgetPeriodResource = new BudgetPeriodResource();
 
@@ -49,7 +49,7 @@ public class BudgetPeriodAssembler extends ResourceAssemblerSupport <BudgetPerio
         return budgetPeriodResource;
     }
 
-    private Budget prepareBudget(BudgetPeriod entity){
+    private Budget prepareBudget(BudgetPeriod entity) {
         Budget budget = entity.getBudget();
         budget.setUser(null);
         return budget;

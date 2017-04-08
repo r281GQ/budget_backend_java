@@ -25,11 +25,7 @@ import java.util.Properties;
 @ComponentScan(basePackages = "budget")
 @EnableTransactionManagement
 @Profile("testing")
-//@PropertySource(value = {"classpath:/application.properties"})
 public class TestingDataBaseConfig {
-
-//    @Autowired
-//    private Environment environment;
 
     @Bean
     @Primary
@@ -37,7 +33,7 @@ public class TestingDataBaseConfig {
         return new ExchangeService() {
             @Override
             public BigDecimal getRate(String currencyPair) {
-                return currencyPair.equals("GBPGBP") || currencyPair.equals("EUREUR") ? new BigDecimal(1) : new BigDecimal(2);
+                return (currencyPair.equals("GBPGBP")|| currencyPair.equals("EUREUR")? new BigDecimal(1):new BigDecimal(2));
             }
         };
     }
@@ -71,7 +67,6 @@ public class TestingDataBaseConfig {
         jpa.setShowSql(true);
         jpa.setDatabase(Database.H2);
         jpa.setGenerateDdl(true);
-
         return jpa;
     }
 

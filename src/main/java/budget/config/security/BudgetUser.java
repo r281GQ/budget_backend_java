@@ -14,7 +14,7 @@ public class BudgetUser implements UserDetails {
 
     private User user;
 
-    public BudgetUser (User user){
+    public BudgetUser(User user) {
         setUser(user);
     }
 
@@ -33,7 +33,7 @@ public class BudgetUser implements UserDetails {
         return user.getName();
     }
 
-   @Override
+    @Override
     public boolean isAccountNonExpired() {
         return true;
     }
@@ -57,7 +57,7 @@ public class BudgetUser implements UserDetails {
         this.user = user;
     }
 
-    public User getUser(){
+    public User getUser() {
         return user;
     }
 }

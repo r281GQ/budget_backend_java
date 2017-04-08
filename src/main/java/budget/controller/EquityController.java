@@ -30,36 +30,36 @@ public class EquityController {
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/equities/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PostAuthorize("returnObject.body.user.identifier == principal.user.identifier")
-    EquityResource get(@PathVariable("id") @P("id") long id) {
+    @PostAuthorize("@securityHelper.isUserProvidedPrincipal(returnObject.user.identifier)")
+    public EquityResource get(@PathVariable("id") @P("id") long id) {
         return equityAssembler.toResource(equityService.getById(id));
     }
 
     @ResponseStatus(HttpStatus.CREATED)
     @RequestMapping(value = "/equities", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#equity.user.identifier == principal.user.identifier")
-    void create(@RequestBody @P("equity") Equity equity) {
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#equity.user.identifier)")
+    public void create(@RequestBody @P("equity") Equity equity) {
         equityService.create(equity);
     }
 
     @ResponseStatus(HttpStatus.ACCEPTED)
     @RequestMapping(value = "/equities/{id}", method = RequestMethod.DELETE, produces = MediaType.APPLICATION_JSON_VALUE)
     @PreAuthorize("@securityHelper.doesEquityBelongToLoggedInUser(#id)")
-    void delete(@PathVariable("id") @P("id") long id) {
+    public void delete(@PathVariable("id") @P("id") long id) {
         equityService.delete(wrapEquity(id));
     }
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/equities", method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#equity.user.identifier == principal.user.identifier && @securityHelper.isRealResource(#equity)")
-    void update(@RequestBody @P("equity") Equity equity) {
+    @PreAuthorize("@securityHelper.doesEquityBelongToLoggedInUser(#equity.identifier)")
+    public void update(@RequestBody @P("equity") Equity equity) {
         equityService.update(equity);
     }
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/users/{id}/equities", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("#id == principal.user.identifier")
-    List<EquityResource> getEquitiesByUser(@PathVariable ("id") @P("id") long id) {
+    @PreAuthorize("@securityHelper.isUserProvidedPrincipal(#id)")
+    public List<EquityResource> getEquitiesByUser(@PathVariable ("id") @P("id") long id) {
         return equityService.getByUser(wrapUserId(id)).stream().map(equity -> equityAssembler.toResource(equity)).collect(Collectors.toList());
     }
 

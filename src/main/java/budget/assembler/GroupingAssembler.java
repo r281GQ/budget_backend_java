@@ -14,7 +14,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
  * Created by veghe on 01/12/2016.
  */
 @Component
-public class GroupingAssembler extends ResourceAssemblerSupport <Grouping, GroupingResource> {
+public class GroupingAssembler extends ResourceAssemblerSupport<Grouping, GroupingResource> {
 
 
     public GroupingAssembler() {

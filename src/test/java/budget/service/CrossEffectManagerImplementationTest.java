@@ -172,6 +172,7 @@ public class CrossEffectManagerImplementationTest {
         transaction.setGrouping(grouping);
         transaction.setAccount(account);
         transaction.setUser(user);
+        transaction.setCurrency(Currency.GBP);
 
         crossEffectManagerImplementation.createTransaction(transaction);
         assertThat(transaction.getCreationDate().getDay(), is(new Date().getDay()));
@@ -179,12 +180,13 @@ public class CrossEffectManagerImplementationTest {
 
     @Test
     public void shouldInvokePeriodCreatorServiceMethod(){
+        when(groupingRepository.get(transaction.getGrouping().getIdentifier())).thenReturn(grouping);
 
         when(userRepository.get(transaction.getUser().getIdentifier())).thenReturn(user);
         when(equityRepository.get(transaction.getEquity().getIdentifier())).thenReturn(equity);
         when(budgetRepository.get(any(Long.class))).thenReturn(budget);
         ArgumentCaptor <Date> dateArgumentCaptor = ArgumentCaptor.forClass(Date.class);
-
+        transaction.setCurrency(Currency.GBP);
         when(periodCreatorService.createPeriod(dateArgumentCaptor.capture())).thenReturn(period);
         crossEffectManagerImplementation.createTransaction(transaction);
         verify(periodCreatorService).createPeriod(dateArgumentCaptor.getValue());
@@ -192,6 +194,8 @@ public class CrossEffectManagerImplementationTest {
 
     @Test
     public void shouldInvokeEquitySetterService(){
+
+        when(groupingRepository.get(transaction.getGrouping().getIdentifier())).thenReturn(grouping);
 
         when(userRepository.get(transaction.getUser().getIdentifier())).thenReturn(user);
         when(equityRepository.get(transaction.getEquity().getIdentifier())).thenReturn(equity);
@@ -202,6 +206,7 @@ public class CrossEffectManagerImplementationTest {
 
     @Test
     public void shouldInvokeBudgetPeriodSetterService(){
+        when(groupingRepository.get(transaction.getGrouping().getIdentifier())).thenReturn(grouping);
 
 
         when(userRepository.get(transaction.getUser().getIdentifier())).thenReturn(user);
