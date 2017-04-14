@@ -33,15 +33,16 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
     @Autowired
     private BudgetRepository budgetRepository;
 
+
     @Override
     public void updateBudgetPeriodOnTransactionCreation(Transaction transaction) {
         setBudgetPeriod(transaction);
-        calculateBudgetPeriodBalances(transaction.getBudget());
+        calculateBudgetPeriodBalances(transaction.getBudget(), null);
     }
 
     @Override
     public void updateBudgetPeriodOnTransactionDeletion(Transaction transaction) {
-        calculateBudgetPeriodBalances(transaction.getBudget());
+        calculateBudgetPeriodBalances(transaction.getBudget(), null);
     }
 
     @Override
@@ -51,7 +52,7 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
             budgetPeriod.setAllowance(budget.getDefaultAllowance());
             budgetPeriodRepository.update(budgetPeriod);
         }
-        calculateBudgetPeriodBalances(budget);
+        calculateBudgetPeriodBalances(budget, null);
     }
 
     @Override
@@ -65,8 +66,9 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
     @Override
     public void updateBudgetPeriod(BudgetPeriod budgetPeriod) {
         if (budgetPeriodRepository.get(budgetPeriod.getIdentifier()).getAllowance().doubleValue() != budgetPeriod.getAllowance().doubleValue())
-            calculateBudgetPeriodBalances(budgetPeriod.getBudget());
-        budgetPeriodRepository.update(budgetPeriod);
+            calculateBudgetPeriodBalances(budgetPeriod.getBudget(), budgetPeriod);
+        else
+            budgetPeriodRepository.update(budgetPeriod);
     }
 
     private void setBudgetPeriod(Transaction transaction) {
@@ -96,27 +98,36 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
         return budgetPeriod;
     }
 
-    private void calculateBudgetPeriodBalances(Budget budget) {
-        List<BudgetPeriod> orderedBudgetPeriods = budgetPeriodRepository.findByBudgetOrderedByDate(budget);
-        calculateBalanceForEachBPs(assignTransactionsToCorrespondingBPs(orderedBudgetPeriods));
+    private void calculateBudgetPeriodBalances(Budget budget, BudgetPeriod budgetPeriod) {
+        if (budgetPeriod == null) {
+            List<BudgetPeriod> orderedBudgetPeriods = budgetPeriodRepository.findByBudgetOrderedByDate(budget);
+            calculateBalanceForEachBPs(assignTransactionsToCorrespondingBPs(orderedBudgetPeriods));
+        } else {
+            List<BudgetPeriod> orderedBudgetPeriods = budgetPeriodRepository.findByBudgetOrderedByDate(budget);
+
+            orderedBudgetPeriods.forEach(budgetPeriod1 -> {
+                if (budgetPeriod1.getIdentifier().equals(budgetPeriod.getIdentifier())) {
+                    budgetPeriod1.setAllowance(budgetPeriod.getAllowance());
+                }
+            });
+
+            calculateBalanceForEachBPs(assignTransactionsToCorrespondingBPs(orderedBudgetPeriods));
+        }
     }
 
     private void calculateBalanceForEachBPs(NavigableMap<BudgetPeriod, List<Transaction>> budgetPeriodTransactionListDictionary) {
         BigDecimal leftOver = new BigDecimal(0);
 
         for (Map.Entry<BudgetPeriod, List<Transaction>> entry : budgetPeriodTransactionListDictionary.entrySet()) {
-            System.err.println("BPs: "+entry.getKey());
-            System.err.println("transaction belong the above are:");
-            entry.getValue().forEach((transaction -> System.err.println(transaction.getName() + " "+ transaction.getIdentifier())));
             BigDecimal balance = entry.getKey().getAllowance().add(leftOver).subtract(calculateSumOfTransactions(entry));
             setBalanceForCurrentBudgetPeriod(entry, balance);
             leftOver = balance;
+            entry.getKey().setBalance(balance);
             budgetPeriodRepository.update(entry.getKey());
         }
     }
 
     private void setBalanceForCurrentBudgetPeriod(Map.Entry<BudgetPeriod, List<Transaction>> entry, BigDecimal balance) {
-        System.err.println("For the budgeetPeriod "+entry.getKey().getName()+ " balance has been set: "+balance);
         entry.getKey().setBalance(balance);
     }
 
@@ -126,7 +137,6 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
         for (Transaction transaction : dictionaryEntry.getValue()) {
             sumOfAmountOfTransactions = (transaction.getAmountAtTheMomentOfTransactionForBudget().add(sumOfAmountOfTransactions));
         }
-        System.err.println("sumoftran:"+sumOfAmountOfTransactions);
         return sumOfAmountOfTransactions;
     }
 
@@ -135,7 +145,7 @@ public class BudgetPeriodSetterServiceImplementation implements BudgetPeriodSett
 
         for (BudgetPeriod budgetPeriod : orderedBudgetPeriods) {
             List<Transaction> transactionList = transactionRepository.findBudgetPeriod(budgetPeriod);
-            for(Transaction transaction: transactionList){
+            for (Transaction transaction : transactionList) {
                 System.err.println(transaction.getIdentifier());
             }
             budgetPeriodTransactionListDictionary.put(budgetPeriod, transactionList);

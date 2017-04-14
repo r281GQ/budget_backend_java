@@ -16,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 /**
@@ -39,6 +40,9 @@ public class BudgetPeriodServiceImplementation implements BudgetPeriodService {
 
     @Autowired
     private DefaultValueProviderService defaultValueProviderService;
+
+    @Autowired
+    private SimpleDateFormat df;
 
     @Override
     public BudgetPeriod getById(long id) {
@@ -64,6 +68,9 @@ public class BudgetPeriodServiceImplementation implements BudgetPeriodService {
 
         setUser(budgetPeriod);
         setBudget(budgetPeriod);
+
+        budgetPeriod.setPeriod(((budgetPeriodRepository.get(budgetPeriod.getIdentifier()).getPeriod())));
+
         if (!validationService.isUpdateAble(budgetPeriod))
             throw new InvalidDataProvidedException(defaultValueProviderService.getExceptionMessages(InvalidType.INVALIDATION_BUDGETPERIOD), budgetPeriod);
         crossEffectManager.updateBudgetPeriod(budgetPeriod);

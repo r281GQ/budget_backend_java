@@ -2,146 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7acea2bd-df9f-4531-882b-e358cd66ccb0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_el_impl_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_0_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/budget/config/CORSFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/AuthenticationFailure.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/AuthenticationSuccess.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/budget/config/CORSFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/AuthenticationFailure.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/AuthenticationSuccess.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-03-28" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-03-29" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-03-30" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-03-31" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-04-02" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-04-03" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/accessories/builder/TransactionBuilder.class" afterPath="$PROJECT_DIR$/target/classes/budget/accessories/builder/TransactionBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/accessories/validators/EmailValidator.class" afterPath="$PROJECT_DIR$/target/classes/budget/accessories/validators/EmailValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/accessories/validators/ValidationServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/accessories/validators/ValidationServiceImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/assembler/UserAssembler.class" afterPath="$PROJECT_DIR$/target/classes/budget/assembler/UserAssembler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/DevDB$1.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/DevDB$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/DevDB.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/DevDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/Dispatcher.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/Dispatcher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/TestingDataBaseConfig$1.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/TestingDataBaseConfig$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/TestingDataBaseConfig.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/TestingDataBaseConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/WebConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/WebConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/BudgetUserService.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/security/BudgetUserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/EntryPoint.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/security/EntryPoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/SecurityConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/security/SecurityConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/JWTTokenUtil.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/security/JWTTokenUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/config/security/auth/SecurityHelper.class" afterPath="$PROJECT_DIR$/target/classes/budget/config/security/auth/SecurityHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/AccountController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/AccountController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/BudgetController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/BudgetController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/BudgetPeriodController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/BudgetPeriodController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/CustomExceptionTranslator.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/CustomExceptionTranslator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/EquityController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/EquityController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/GroupingController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/GroupingController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/TransactionController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/TransactionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/controller/exceptions/FailedLogInException.class" afterPath="$PROJECT_DIR$/target/classes/budget/controller/exceptions/FailedLogInException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/BudgetPeriodServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/BudgetPeriodServiceImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/BudgetPeriodSetterServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/BudgetPeriodSetterServiceImplementation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/CrossEffectManagerImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/CrossEffectManagerImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/TransactionServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/TransactionServiceImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/budget/service/UserServiceImplementation.class" afterPath="$PROJECT_DIR$/target/classes/budget/service/UserServiceImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/budget/accessories/TestModelRepo.class" afterPath="$PROJECT_DIR$/target/test-classes/budget/accessories/TestModelRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/budget/controller/BudgetPeriodControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/budget/controller/BudgetPeriodControllerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/budget/service/CrossEffectManagerImplementationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/budget/service/CrossEffectManagerImplementationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/budget/service/UserServiceImplementationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/budget/service/UserServiceImplementationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Budget.iml" afterPath="$PROJECT_DIR$/Budget.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/accessories/builder/TransactionBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/budget/accessories/builder/TransactionBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/EmailValidator.java" afterPath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/EmailValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationService.java" afterPath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/AccountAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/AccountAssembler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetAssembler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetPeriodAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/BudgetPeriodAssembler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/EquityAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/EquityAssembler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/GroupingAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/GroupingAssembler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/TransactionAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/TransactionAssembler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/assembler/UserAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/budget/assembler/UserAssembler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/DevDB.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/DevDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/Dispatcher.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/Dispatcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUser.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUserService.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/EntryPoint.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/EntryPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java" afterPath="$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/AccountController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/AccountController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/BudgetController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/BudgetController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/BudgetPeriodController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/BudgetPeriodController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/CustomExceptionTranslator.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/CustomExceptionTranslator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/EquityController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/EquityController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/GroupingController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/GroupingController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/TransactionController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/TransactionController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FailedLogInException.java" afterPath="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FailedLogInException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodServiceImplementation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/budget/service/UserServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/budget/service/UserServiceImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/budget/accessories/TestModelRepo.java" afterPath="$PROJECT_DIR$/src/test/java/budget/accessories/TestModelRepo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java" afterPath="$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/budget/service/UserServiceImplementationTest.java" afterPath="$PROJECT_DIR$/src/test/java/budget/service/UserServiceImplementationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.accessories.validators.ValidationServiceTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.accessories.validators.ValidationServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.config.DataBaseConnectionTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.config.DataBaseConnectionTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.BudgetPeriodControllerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.controller.BudgetPeriodControllerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.model.PeriodTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.model.PeriodTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.AccountRepositoryAndDataBaseIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.AccountRepositoryAndDataBaseIntegrationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.BudgetPeriodRepositoryDBIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.BudgetPeriodRepositoryDBIntegrationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.BudgetRepositoryAndDataBaseIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.BudgetRepositoryAndDataBaseIntegrationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.UserRepositoryAndDataBaseIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.repository.UserRepositoryAndDataBaseIntegrationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.AccountServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.AccountServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.AccountSetterServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.AccountSetterServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.BudgetPeriodServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.BudgetPeriodServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.BudgetPeriodSetterServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.BudgetPeriodSetterServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.BudgetServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.BudgetServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.CrossEffectManagerImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.CrossEffectManagerImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.CurrencySetterServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.CurrencySetterServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.DeleteHelperServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.DeleteHelperServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.EquitySetterServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.EquitySetterServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.PeriodCreatorServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.PeriodCreatorServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.TransactionServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.TransactionServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.UserServiceImplementationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.UserServiceImplementationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.AccountServiceDBIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.AccountServiceDBIntegrationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.GroupingServiceDBIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.GroupingServiceDBIntegrationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.TransactionServiceDataBaseIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.TransactionServiceDataBaseIntegrationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.UserServiceDBIntegrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-budget.service.integration.UserServiceDBIntegrationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.accessories.validators.ValidationServiceTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.accessories.validators.ValidationServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.config.DataBaseConnectionTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.config.DataBaseConnectionTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.controller.BudgetPeriodControllerTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.controller.BudgetPeriodControllerTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.model.PeriodTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.model.PeriodTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.repository.AccountRepositoryAndDataBaseIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.repository.AccountRepositoryAndDataBaseIntegrationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.repository.BudgetPeriodRepositoryDBIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.repository.BudgetPeriodRepositoryDBIntegrationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.repository.BudgetRepositoryAndDataBaseIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.repository.BudgetRepositoryAndDataBaseIntegrationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.repository.UserRepositoryAndDataBaseIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.repository.UserRepositoryAndDataBaseIntegrationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.AccountServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.AccountServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.AccountSetterServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.AccountSetterServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.BudgetPeriodServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.BudgetPeriodServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.BudgetPeriodSetterServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.BudgetPeriodSetterServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.BudgetServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.BudgetServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.CrossEffectManagerImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.CrossEffectManagerImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.CurrencySetterServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.CurrencySetterServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.DeleteHelperServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.DeleteHelperServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.EquitySetterServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.EquitySetterServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.PeriodCreatorServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.PeriodCreatorServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.TransactionServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.TransactionServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.UserServiceImplementationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.UserServiceImplementationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.AccountServiceDBIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.AccountServiceDBIntegrationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.GroupingServiceDBIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.GroupingServiceDBIntegrationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.TransactionServiceDataBaseIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.TransactionServiceDataBaseIntegrationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.UserServiceDBIntegrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/budget.service.integration.UserServiceDBIntegrationTest.txt" />
     </list>
     <ignored path="Budget.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -176,96 +47,14 @@
     <favorites_list name="Budget" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.33677992">
+    <splitter split-orientation="horizontal" split-proportion="0.6425532">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="InvalidType.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/InvalidType.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GroupingServiceImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/GroupingServiceImplementation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#3651#3652#0" expanded="false" />
-                    <element signature="e#3709#3710#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserServiceImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/UserServiceImplementation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1650">
-                  <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#2579#2580#0" expanded="false" />
-                    <element signature="e#2620#2621#0" expanded="false" />
-                    <element signature="e#3086#3087#0" expanded="false" />
-                    <element signature="e#3157#3158#0" expanded="false" />
-                    <element signature="e#3205#3206#0" expanded="false" />
-                    <element signature="e#3252#3253#0" expanded="false" />
-                    <element signature="e#3930#3931#0" expanded="false" />
-                    <element signature="e#3981#3982#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TransactionServiceImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/TransactionServiceImplementation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#2778#2779#0" expanded="false" />
-                    <element signature="e#2839#2840#0" expanded="false" />
-                    <element signature="e#3262#3263#0" expanded="false" />
-                    <element signature="e#3329#3330#0" expanded="false" />
-                    <element signature="e#3402#3403#0" expanded="false" />
-                    <element signature="e#3467#3468#0" expanded="false" />
-                    <element signature="e#3546#3547#0" expanded="false" />
-                    <element signature="e#3615#3616#0" expanded="false" />
-                    <element signature="e#3688#3689#0" expanded="false" />
-                    <element signature="e#3753#3754#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CrossEffectManagerImplementation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1975">
-                  <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#5896#5897#0" expanded="false" />
-                    <element signature="e#5950#5951#0" expanded="false" />
-                    <element signature="e#6008#6009#0" expanded="false" />
-                    <element signature="e#6062#6063#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="JWTTokenUtil.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state relative-caret-position="1000">
+                  <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="false" />
                     <element signature="e#424#425#0" expanded="false" />
@@ -279,11 +68,93 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CrossEffectManagerImplementationTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java">
+          <file leaf-file-name="SecurityHelper.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4700">
-                  <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+                <state relative-caret-position="2100">
+                  <caret line="90" column="36" lean-forward="false" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BudgetPeriodController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/BudgetPeriodController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CrossEffectManagerImplementation.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3400">
+                  <caret line="144" column="54" lean-forward="false" selection-start-line="144" selection-start-column="54" selection-end-line="144" selection-end-column="54" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#5951#5952#0" expanded="false" />
+                    <element signature="e#6005#6006#0" expanded="false" />
+                    <element signature="e#6063#6064#0" expanded="false" />
+                    <element signature="e#6117#6118#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BudgetPeriodSetterServiceImplementation.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="25">
+                  <caret line="60" column="57" lean-forward="false" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BudgetPeriodServiceImplementation.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodServiceImplementation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1225">
+                  <caret line="66" column="62" lean-forward="false" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#3071#3072#0" expanded="false" />
+                    <element signature="e#3137#3138#0" expanded="false" />
+                    <element signature="e#3205#3206#0" expanded="false" />
+                    <element signature="e#3267#3268#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ValidationServiceImplementation.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="325">
+                  <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#879#880#0" expanded="false" />
+                    <element signature="e#937#938#0" expanded="false" />
+                    <element signature="e#2897#2898#0" expanded="false" />
+                    <element signature="e#2966#2967#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JwtAuthProvider.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JwtAuthProvider.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="false" />
                   </folding>
@@ -303,21 +174,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TransactionServiceDataBaseIntegrationTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TransactionServiceDataBaseIntegrationTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/integration/TransactionServiceDataBaseIntegrationTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="25">
+                <state relative-caret-position="3850">
                   <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TestModelRepo.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/budget/accessories/TestModelRepo.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
                   <folding>
                     <element signature="imports" expanded="false" />
                   </folding>
@@ -398,7 +259,10 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="200">
                   <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
+                  <folding>
+                    <element signature="e#191#192#0" expanded="false" />
+                    <element signature="e#221#222#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -514,9 +378,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JwtAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/controller/TransactionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JwtAuthToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JwtAuthManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/config/WebConfiguration.java" />
@@ -537,7 +398,6 @@
         <option value="$PROJECT_DIR$/src/main/java/budget/config/security/AuthRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/config/security/SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/controller/EquityController.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/controller/BudgetPeriodController.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/controller/BudgetController.java" />
@@ -559,12 +419,16 @@
         <option value="$PROJECT_DIR$/src/main/java/budget/controller/CustomExceptionTranslator.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/controller/exceptions/FailedLogInException.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java" />
         <option value="$PROJECT_DIR$/src/test/java/budget/service/CrossEffectManagerImplementationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/budget/service/UserServiceImplementationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/budget/accessories/TestModelRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/budget/config/TestingDataBaseConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodServiceImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java" />
       </list>
     </option>
   </component>
@@ -727,8 +591,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1285,7 +1150,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1703,14 +1567,14 @@
     <frame x="-2891" y="-11" width="2808" height="1642" extended-state="6" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17599411" sideWeight="0.49691358" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18041237" sideWeight="0.49691358" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2751817" sideWeight="0.36990076" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21391752" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3372658" sideWeight="0.63009924" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3372658" sideWeight="0.63009924" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17021276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22861911" sideWeight="0.50308645" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38213915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1728,19 +1592,19 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831088" sideWeight="0.46527013" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.46527013" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2751817" sideWeight="0.36990076" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12181894" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21391752" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22363204" sideWeight="0.63009924" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3372658" sideWeight="0.63009924" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652065" sideWeight="0.49691358" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18041237" sideWeight="0.49691358" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25614592" sideWeight="0.48897463" order="1" side_tool="false" content_ui="tabs" />
@@ -1774,41 +1638,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/GroupingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="53" column="67" lean-forward="false" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="60" column="64" lean-forward="false" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/BudgetUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JwtTokenMalformedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/EntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/exceptions/BudgetRestException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1939,13 +1768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1964,7 +1786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1993,7 +1814,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#221#222#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2015,7 +1839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2023,11 +1846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3651#3652#0" expanded="false" />
-            <element signature="e#3709#3710#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2035,49 +1853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2778#2779#0" expanded="false" />
-            <element signature="e#2839#2840#0" expanded="false" />
-            <element signature="e#3262#3263#0" expanded="false" />
-            <element signature="e#3329#3330#0" expanded="false" />
-            <element signature="e#3402#3403#0" expanded="false" />
-            <element signature="e#3467#3468#0" expanded="false" />
-            <element signature="e#3546#3547#0" expanded="false" />
-            <element signature="e#3615#3616#0" expanded="false" />
-            <element signature="e#3688#3689#0" expanded="false" />
-            <element signature="e#3753#3754#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#424#425#0" expanded="false" />
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#1156#1157#0" expanded="false" />
-            <element signature="e#1226#1227#0" expanded="false" />
-            <element signature="e#1271#1272#0" expanded="false" />
-            <element signature="e#1350#1351#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1975">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5896#5897#0" expanded="false" />
-            <element signature="e#5950#5951#0" expanded="false" />
-            <element signature="e#6008#6009#0" expanded="false" />
-            <element signature="e#6062#6063#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2085,9 +1860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4700">
           <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2095,17 +1867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
           <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2579#2580#0" expanded="false" />
-            <element signature="e#2620#2621#0" expanded="false" />
-            <element signature="e#3086#3087#0" expanded="false" />
-            <element signature="e#3157#3158#0" expanded="false" />
-            <element signature="e#3205#3206#0" expanded="false" />
-            <element signature="e#3252#3253#0" expanded="false" />
-            <element signature="e#3930#3931#0" expanded="false" />
-            <element signature="e#3981#3982#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2113,9 +1874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2138,14 +1896,6 @@
             <element signature="e#1387#1388#0" expanded="false" />
             <element signature="e#1441#1442#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/integration/TransactionServiceDataBaseIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2217,6 +1967,112 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="23" column="71" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/budget/service/integration/TransactionServiceDataBaseIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3850">
+          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JwtAuthProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/JWTTokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1226#1227#0" expanded="false" />
+            <element signature="e#1271#1272#0" expanded="false" />
+            <element signature="e#1350#1351#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/config/security/auth/SecurityHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="90" column="36" lean-forward="false" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/controller/BudgetPeriodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/accessories/validators/ValidationServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#937#938#0" expanded="false" />
+            <element signature="e#2897#2898#0" expanded="false" />
+            <element signature="e#2966#2967#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="66" column="62" lean-forward="false" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3071#3072#0" expanded="false" />
+            <element signature="e#3137#3138#0" expanded="false" />
+            <element signature="e#3205#3206#0" expanded="false" />
+            <element signature="e#3267#3268#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/CrossEffectManagerImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="144" column="54" lean-forward="false" selection-start-line="144" selection-start-column="54" selection-end-line="144" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#5951#5952#0" expanded="false" />
+            <element signature="e#6005#6006#0" expanded="false" />
+            <element signature="e#6063#6064#0" expanded="false" />
+            <element signature="e#6117#6118#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/budget/service/BudgetPeriodSetterServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="60" column="57" lean-forward="false" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
           <folding />
         </state>
       </provider>

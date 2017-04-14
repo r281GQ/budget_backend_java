@@ -62,7 +62,7 @@ public class JWTTokenUtil {
             user.setRole((String) body.get("role"));
             return user;
 
-        } catch (JwtException | ClassCastException e) {
+        } catch (JwtException | ClassCastException | IllegalArgumentException e) {
             return null;
         }
     }

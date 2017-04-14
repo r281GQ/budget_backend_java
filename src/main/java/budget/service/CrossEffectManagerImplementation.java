@@ -141,6 +141,7 @@ public class CrossEffectManagerImplementation implements CrossEffectManager {
 
     @Override
     public void updateBudgetPeriod(BudgetPeriod budgetPeriod) {
+//        budgetPeriodRepository.update(budgetPeriod);
         budgetPeriodSetterService.updateBudgetPeriod(budgetPeriod);
     }
 

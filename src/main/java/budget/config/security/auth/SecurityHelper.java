@@ -88,6 +88,14 @@ public class SecurityHelper {
         return true;
     }
 
+    public boolean doesBudgetPeriodBelongToLoggedInUser(long id) {
+        BudgetPeriod budgetPeriod = new BudgetPeriod();
+        budgetPeriod.setIdentifier(id);
+        if(!isRealResource(budgetPeriod))
+            throw new UnAuthorizedException("BudgetPeriod does not belong to principal");
+        return true;
+    }
+
     public boolean isUserProvidedPrincipal(User user){
         if(user == null || user.getIdentifier() == null)
             throw new InvalidDataProvidedException("Either user is not present or user is missing identifier", user);
