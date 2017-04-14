@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: budget.service.integration.UserServiceDBIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.183 sec
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.404 sec

@@ -73,8 +73,8 @@ public class ValidationServiceImplementation implements ValidationService {
     @Override
     public boolean isUpdateAble(Equity equity) {
         Equity inDB = equityRepository.get(equity.getIdentifier());
-        inDB.getType().equals(equity.getType());
-        return false;
+
+        return inDB.getType().equals(equity.getType());
     }
 
     @Override

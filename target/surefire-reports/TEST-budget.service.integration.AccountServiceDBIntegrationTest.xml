@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="budget.service.integration.AccountServiceDBIntegrationTest" time="1.752" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="budget.service.integration.AccountServiceDBIntegrationTest" time="1.92" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="2017.1"/>
+    <property name="idea.version" value="2017.1.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin"/>
     <property name="java.vm.version" value="25.92-b14"/>
@@ -30,7 +30,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\veghe\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\veghe\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_92\bin;C:\Users\veghe\AppData\Local\atom\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\veghe\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\veghe\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_92\bin;C:\Users\veghe\AppData\Local\atom\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_92\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1 package"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1.1 test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,16 +62,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldAddItselfToUser" time="0.143"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundOnUpdateWhenAccountIsNull" time="0.149"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldUpdate" time="0.163"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundExceptionOnGet" time="0.168"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundOnDeletionWhenIdIsNotFound" time="0.173"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldCreateAccount" time="0.144"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldReturnAccountOnGet" time="0.127"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowInvalidDataOnCreation" time="0.155"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundOnDeletionWhenAccountIsNull" time="0.136"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowInvalidDataOnUpdate" time="0.116"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldDeleteAccount" time="0.15"/>
-  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundOnCreateWhenAccountIsNull" time="0.128"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldAddItselfToUser" time="0.218"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundOnUpdateWhenAccountIsNull" time="0.207"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldUpdate" time="0.174"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundExceptionOnGet" time="0.176"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundOnDeletionWhenIdIsNotFound" time="0.148"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldCreateAccount" time="0.159"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldReturnAccountOnGet" time="0.133"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowInvalidDataOnCreation" time="0.141"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundOnDeletionWhenAccountIsNull" time="0.149"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowInvalidDataOnUpdate" time="0.119"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldDeleteAccount" time="0.161"/>
+  <testcase classname="budget.service.integration.AccountServiceDBIntegrationTest" name="shouldThrowResourceNotFoundOnCreateWhenAccountIsNull" time="0.135"/>
 </testsuite>

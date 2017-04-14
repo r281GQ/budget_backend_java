@@ -104,7 +104,7 @@ public class BudgetPeriodServiceImplementationTest {
         }catch (Exception e){
             fail(TestAccessories.WRONG_EXCEPTION + e.getClass().getTypeName());
         }
-        verify(budgetPeriodRepository).get(TestModelRepo.BASIC_ID);
+        verify(budgetPeriodRepository, times(2)).get(TestModelRepo.BASIC_ID);
         verify(crossEffectManager, times(0)).updateBudgetPeriod(budgetPeriod);
     }
 
@@ -115,7 +115,7 @@ public class BudgetPeriodServiceImplementationTest {
 
         budgetPeriodServiceImplementation.update(budgetPeriod);
 
-        verify(budgetPeriodRepository).get(TestModelRepo.BASIC_ID);
+        verify(budgetPeriodRepository, times(2)).get(TestModelRepo.BASIC_ID);
         verify(crossEffectManager, times(1)).updateBudgetPeriod(budgetPeriod);
     }
 }

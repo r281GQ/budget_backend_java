@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="budget.service.DeleteHelperServiceImplementationTest" time="0.016" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="budget.service.DeleteHelperServiceImplementationTest" time="0.023" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="2017.1"/>
+    <property name="idea.version" value="2017.1.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin"/>
     <property name="java.vm.version" value="25.92-b14"/>
@@ -30,7 +30,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\veghe\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\veghe\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_92\bin;C:\Users\veghe\AppData\Local\atom\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\veghe\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\veghe\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_92\bin;C:\Users\veghe\AppData\Local\atom\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_92\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1 package"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1.1 test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,10 +62,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteTransactionsAndBudgetPeriods" time="0"/>
+  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteTransactionsAndBudgetPeriods" time="0.008"/>
   <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteAccountWithAllTransactions" time="0.003"/>
-  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteEquityWithAllTransactions" time="0.002"/>
-  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteEverything" time="0.007"/>
-  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteGroupingWithAllTransactions" time="0.003"/>
-  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteTransaction" time="0.001"/>
+  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteEquityWithAllTransactions" time="0.006"/>
+  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteEverything" time="0.004"/>
+  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteGroupingWithAllTransactions" time="0"/>
+  <testcase classname="budget.service.DeleteHelperServiceImplementationTest" name="shouldDeleteTransaction" time="0.002"/>
 </testsuite>
